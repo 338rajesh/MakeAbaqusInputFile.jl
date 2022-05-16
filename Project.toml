@@ -1,0 +1,13 @@
+name = "AbaqusINPwriter"
+uuid = "0ffda9b7-ff5a-4678-8653-5a1982b6219a"
+authors = ["Rajesh Nakka"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
