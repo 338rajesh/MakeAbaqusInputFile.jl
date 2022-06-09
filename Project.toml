@@ -3,6 +3,11 @@ uuid = "0ffda9b7-ff5a-4678-8653-5a1982b6219a"
 authors = ["Rajesh Nakka"]
 version = "0.1.0"
 
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+FEPreProcessing = "4e1f3283-c9c5-47e5-ae97-911e3d9423b6"
+Materials = "3bc6abe2-0f4e-4155-8e62-b41e8eeb0f4d"
+
 [compat]
 julia = "1.6"
 
