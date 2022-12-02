@@ -1,0 +1,5607 @@
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-znxp774, INSTANCE=RVE-instance
+774
+*NSET, NSET=NODE-znxn1021, INSTANCE=RVE-instance
+1021
+** CONSTRAINT: EQUATIONS NODES-znxn-1021-znxp-774
+*EQUATION
+3
+NODE-znxp774, 1, 1.0
+NODE-znxn1021, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-znxp774, 2, 1.0
+NODE-znxn1021, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-znxp774, 3, 1.0
+NODE-znxn1021, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-znxp836, INSTANCE=RVE-instance
+836
+*NSET, NSET=NODE-znxn1016, INSTANCE=RVE-instance
+1016
+** CONSTRAINT: EQUATIONS NODES-znxn-1016-znxp-836
+*EQUATION
+3
+NODE-znxp836, 1, 1.0
+NODE-znxn1016, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-znxp836, 2, 1.0
+NODE-znxn1016, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-znxp836, 3, 1.0
+NODE-znxn1016, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-znxp765, INSTANCE=RVE-instance
+765
+*NSET, NSET=NODE-znxn1006, INSTANCE=RVE-instance
+1006
+** CONSTRAINT: EQUATIONS NODES-znxn-1006-znxp-765
+*EQUATION
+3
+NODE-znxp765, 1, 1.0
+NODE-znxn1006, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-znxp765, 2, 1.0
+NODE-znxn1006, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-znxp765, 3, 1.0
+NODE-znxn1006, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-znxp761, INSTANCE=RVE-instance
+761
+*NSET, NSET=NODE-znxn987, INSTANCE=RVE-instance
+987
+** CONSTRAINT: EQUATIONS NODES-znxn-987-znxp-761
+*EQUATION
+3
+NODE-znxp761, 1, 1.0
+NODE-znxn987, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-znxp761, 2, 1.0
+NODE-znxn987, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-znxp761, 3, 1.0
+NODE-znxn987, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-znxp680, INSTANCE=RVE-instance
+680
+*NSET, NSET=NODE-znxn958, INSTANCE=RVE-instance
+958
+** CONSTRAINT: EQUATIONS NODES-znxn-958-znxp-680
+*EQUATION
+3
+NODE-znxp680, 1, 1.0
+NODE-znxn958, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-znxp680, 2, 1.0
+NODE-znxn958, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-znxp680, 3, 1.0
+NODE-znxn958, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-znxp678, INSTANCE=RVE-instance
+678
+*NSET, NSET=NODE-znxn917, INSTANCE=RVE-instance
+917
+** CONSTRAINT: EQUATIONS NODES-znxn-917-znxp-678
+*EQUATION
+3
+NODE-znxp678, 1, 1.0
+NODE-znxn917, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-znxp678, 2, 1.0
+NODE-znxn917, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-znxp678, 3, 1.0
+NODE-znxn917, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-znxp591, INSTANCE=RVE-instance
+591
+*NSET, NSET=NODE-znxn866, INSTANCE=RVE-instance
+866
+** CONSTRAINT: EQUATIONS NODES-znxn-866-znxp-591
+*EQUATION
+3
+NODE-znxp591, 1, 1.0
+NODE-znxn866, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-znxp591, 2, 1.0
+NODE-znxn866, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-znxp591, 3, 1.0
+NODE-znxn866, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxn528, INSTANCE=RVE-instance
+528
+*NSET, NSET=NODE-znxn1021, INSTANCE=RVE-instance
+1021
+** CONSTRAINT: EQUATIONS NODES-znxn-1021-zpxn-528
+*EQUATION
+3
+NODE-zpxn528, 1, 1.0
+NODE-znxn1021, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zpxn528, 2, 1.0
+NODE-znxn1021, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zpxn528, 3, 1.0
+NODE-znxn1021, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxn438, INSTANCE=RVE-instance
+438
+*NSET, NSET=NODE-znxn1016, INSTANCE=RVE-instance
+1016
+** CONSTRAINT: EQUATIONS NODES-znxn-1016-zpxn-438
+*EQUATION
+3
+NODE-zpxn438, 1, 1.0
+NODE-znxn1016, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zpxn438, 2, 1.0
+NODE-znxn1016, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zpxn438, 3, 1.0
+NODE-znxn1016, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxn374, INSTANCE=RVE-instance
+374
+*NSET, NSET=NODE-znxn1006, INSTANCE=RVE-instance
+1006
+** CONSTRAINT: EQUATIONS NODES-znxn-1006-zpxn-374
+*EQUATION
+3
+NODE-zpxn374, 1, 1.0
+NODE-znxn1006, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zpxn374, 2, 1.0
+NODE-znxn1006, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zpxn374, 3, 1.0
+NODE-znxn1006, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxn291, INSTANCE=RVE-instance
+291
+*NSET, NSET=NODE-znxn987, INSTANCE=RVE-instance
+987
+** CONSTRAINT: EQUATIONS NODES-znxn-987-zpxn-291
+*EQUATION
+3
+NODE-zpxn291, 1, 1.0
+NODE-znxn987, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zpxn291, 2, 1.0
+NODE-znxn987, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zpxn291, 3, 1.0
+NODE-znxn987, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxn216, INSTANCE=RVE-instance
+216
+*NSET, NSET=NODE-znxn958, INSTANCE=RVE-instance
+958
+** CONSTRAINT: EQUATIONS NODES-znxn-958-zpxn-216
+*EQUATION
+3
+NODE-zpxn216, 1, 1.0
+NODE-znxn958, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zpxn216, 2, 1.0
+NODE-znxn958, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zpxn216, 3, 1.0
+NODE-znxn958, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxn151, INSTANCE=RVE-instance
+151
+*NSET, NSET=NODE-znxn917, INSTANCE=RVE-instance
+917
+** CONSTRAINT: EQUATIONS NODES-znxn-917-zpxn-151
+*EQUATION
+3
+NODE-zpxn151, 1, 1.0
+NODE-znxn917, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zpxn151, 2, 1.0
+NODE-znxn917, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zpxn151, 3, 1.0
+NODE-znxn917, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxn97, INSTANCE=RVE-instance
+97
+*NSET, NSET=NODE-znxn866, INSTANCE=RVE-instance
+866
+** CONSTRAINT: EQUATIONS NODES-znxn-866-zpxn-97
+*EQUATION
+3
+NODE-zpxn97, 1, 1.0
+NODE-znxn866, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zpxn97, 2, 1.0
+NODE-znxn866, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zpxn97, 3, 1.0
+NODE-znxn866, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxp45, INSTANCE=RVE-instance
+45
+*NSET, NSET=NODE-znxn1021, INSTANCE=RVE-instance
+1021
+** CONSTRAINT: EQUATIONS NODES-znxn-1021-zpxp-45
+*EQUATION
+4
+NODE-zpxp45, 1, 1.0
+NODE-znxn1021, 1, -1.0
+RP2, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-zpxp45, 2, 1.0
+NODE-znxn1021, 2, -1.0
+RP2, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-zpxp45, 3, 1.0
+NODE-znxn1021, 3, -1.0
+RP2, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxp78, INSTANCE=RVE-instance
+78
+*NSET, NSET=NODE-znxn1016, INSTANCE=RVE-instance
+1016
+** CONSTRAINT: EQUATIONS NODES-znxn-1016-zpxp-78
+*EQUATION
+4
+NODE-zpxp78, 1, 1.0
+NODE-znxn1016, 1, -1.0
+RP2, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-zpxp78, 2, 1.0
+NODE-znxn1016, 2, -1.0
+RP2, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-zpxp78, 3, 1.0
+NODE-znxn1016, 3, -1.0
+RP2, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxp43, INSTANCE=RVE-instance
+43
+*NSET, NSET=NODE-znxn1006, INSTANCE=RVE-instance
+1006
+** CONSTRAINT: EQUATIONS NODES-znxn-1006-zpxp-43
+*EQUATION
+4
+NODE-zpxp43, 1, 1.0
+NODE-znxn1006, 1, -1.0
+RP2, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-zpxp43, 2, 1.0
+NODE-znxn1006, 2, -1.0
+RP2, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-zpxp43, 3, 1.0
+NODE-znxn1006, 3, -1.0
+RP2, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxp42, INSTANCE=RVE-instance
+42
+*NSET, NSET=NODE-znxn987, INSTANCE=RVE-instance
+987
+** CONSTRAINT: EQUATIONS NODES-znxn-987-zpxp-42
+*EQUATION
+4
+NODE-zpxp42, 1, 1.0
+NODE-znxn987, 1, -1.0
+RP2, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-zpxp42, 2, 1.0
+NODE-znxn987, 2, -1.0
+RP2, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-zpxp42, 3, 1.0
+NODE-znxn987, 3, -1.0
+RP2, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxp21, INSTANCE=RVE-instance
+21
+*NSET, NSET=NODE-znxn958, INSTANCE=RVE-instance
+958
+** CONSTRAINT: EQUATIONS NODES-znxn-958-zpxp-21
+*EQUATION
+4
+NODE-zpxp21, 1, 1.0
+NODE-znxn958, 1, -1.0
+RP2, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-zpxp21, 2, 1.0
+NODE-znxn958, 2, -1.0
+RP2, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-zpxp21, 3, 1.0
+NODE-znxn958, 3, -1.0
+RP2, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxp15, INSTANCE=RVE-instance
+15
+*NSET, NSET=NODE-znxn917, INSTANCE=RVE-instance
+917
+** CONSTRAINT: EQUATIONS NODES-znxn-917-zpxp-15
+*EQUATION
+4
+NODE-zpxp15, 1, 1.0
+NODE-znxn917, 1, -1.0
+RP2, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-zpxp15, 2, 1.0
+NODE-znxn917, 2, -1.0
+RP2, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-zpxp15, 3, 1.0
+NODE-znxn917, 3, -1.0
+RP2, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zpxp6, INSTANCE=RVE-instance
+6
+*NSET, NSET=NODE-znxn866, INSTANCE=RVE-instance
+866
+** CONSTRAINT: EQUATIONS NODES-znxn-866-zpxp-6
+*EQUATION
+4
+NODE-zpxp6, 1, 1.0
+NODE-znxn866, 1, -1.0
+RP2, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-zpxp6, 2, 1.0
+NODE-znxn866, 2, -1.0
+RP2, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-zpxp6, 3, 1.0
+NODE-znxn866, 3, -1.0
+RP2, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnynzp618, INSTANCE=RVE-instance
+618
+*NSET, NSET=NODE-xnynzn1023, INSTANCE=RVE-instance
+1023
+** CONSTRAINT: EQUATIONS NODES-xnynzn-1023-xnynzp-618
+*EQUATION
+3
+NODE-xnynzp618, 1, 1.0
+NODE-xnynzn1023, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-xnynzp618, 2, 1.0
+NODE-xnynzn1023, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-xnynzp618, 3, 1.0
+NODE-xnynzn1023, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnypzn800, INSTANCE=RVE-instance
+800
+*NSET, NSET=NODE-xnynzn1023, INSTANCE=RVE-instance
+1023
+** CONSTRAINT: EQUATIONS NODES-xnynzn-1023-xnypzn-800
+*EQUATION
+3
+NODE-xnypzn800, 1, 1.0
+NODE-xnynzn1023, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnypzn800, 2, 1.0
+NODE-xnynzn1023, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnypzn800, 3, 1.0
+NODE-xnynzn1023, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnypzp54, INSTANCE=RVE-instance
+54
+*NSET, NSET=NODE-xnynzn1023, INSTANCE=RVE-instance
+1023
+** CONSTRAINT: EQUATIONS NODES-xnynzn-1023-xnypzp-54
+*EQUATION
+4
+NODE-xnypzp54, 1, 1.0
+NODE-xnynzn1023, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-xnypzp54, 2, 1.0
+NODE-xnynzn1023, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-xnypzp54, 3, 1.0
+NODE-xnynzn1023, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpynzn845, INSTANCE=RVE-instance
+845
+*NSET, NSET=NODE-xnynzn1023, INSTANCE=RVE-instance
+1023
+** CONSTRAINT: EQUATIONS NODES-xnynzn-1023-xpynzn-845
+*EQUATION
+3
+NODE-xpynzn845, 1, 1.0
+NODE-xnynzn1023, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpynzn845, 2, 1.0
+NODE-xnynzn1023, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpynzn845, 3, 1.0
+NODE-xnynzn1023, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpynzp84, INSTANCE=RVE-instance
+84
+*NSET, NSET=NODE-xnynzn1023, INSTANCE=RVE-instance
+1023
+** CONSTRAINT: EQUATIONS NODES-xnynzn-1023-xpynzp-84
+*EQUATION
+4
+NODE-xpynzp84, 1, 1.0
+NODE-xnynzn1023, 1, -1.0
+RP2, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-xpynzp84, 2, 1.0
+NODE-xnynzn1023, 2, -1.0
+RP2, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-xpynzp84, 3, 1.0
+NODE-xnynzn1023, 3, -1.0
+RP2, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpypzn501, INSTANCE=RVE-instance
+501
+*NSET, NSET=NODE-xnynzn1023, INSTANCE=RVE-instance
+1023
+** CONSTRAINT: EQUATIONS NODES-xnynzn-1023-xpypzn-501
+*EQUATION
+4
+NODE-xpypzn501, 1, 1.0
+NODE-xnynzn1023, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpypzn501, 2, 1.0
+NODE-xnynzn1023, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpypzn501, 3, 1.0
+NODE-xnynzn1023, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpypzp2, INSTANCE=RVE-instance
+2
+*NSET, NSET=NODE-xnynzn1023, INSTANCE=RVE-instance
+1023
+** CONSTRAINT: EQUATIONS NODES-xnynzn-1023-xpypzp-2
+*EQUATION
+5
+NODE-xpypzp2, 1, 1.0
+NODE-xnynzn1023, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+5
+NODE-xpypzp2, 2, 1.0
+NODE-xnynzn1023, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+5
+NODE-xpypzp2, 3, 1.0
+NODE-xnynzn1023, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp723, INSTANCE=RVE-instance
+723
+*NSET, NSET=NODE-xnyn1020, INSTANCE=RVE-instance
+1020
+** CONSTRAINT: EQUATIONS NODES-xnyn-1020-xnyp-723
+*EQUATION
+3
+NODE-xnyp723, 1, 1.0
+NODE-xnyn1020, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp723, 2, 1.0
+NODE-xnyn1020, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp723, 3, 1.0
+NODE-xnyn1020, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp637, INSTANCE=RVE-instance
+637
+*NSET, NSET=NODE-xnyn1014, INSTANCE=RVE-instance
+1014
+** CONSTRAINT: EQUATIONS NODES-xnyn-1014-xnyp-637
+*EQUATION
+3
+NODE-xnyp637, 1, 1.0
+NODE-xnyn1014, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp637, 2, 1.0
+NODE-xnyn1014, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp637, 3, 1.0
+NODE-xnyn1014, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp546, INSTANCE=RVE-instance
+546
+*NSET, NSET=NODE-xnyn1002, INSTANCE=RVE-instance
+1002
+** CONSTRAINT: EQUATIONS NODES-xnyn-1002-xnyp-546
+*EQUATION
+3
+NODE-xnyp546, 1, 1.0
+NODE-xnyn1002, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp546, 2, 1.0
+NODE-xnyn1002, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp546, 3, 1.0
+NODE-xnyn1002, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp455, INSTANCE=RVE-instance
+455
+*NSET, NSET=NODE-xnyn981, INSTANCE=RVE-instance
+981
+** CONSTRAINT: EQUATIONS NODES-xnyn-981-xnyp-455
+*EQUATION
+3
+NODE-xnyp455, 1, 1.0
+NODE-xnyn981, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp455, 2, 1.0
+NODE-xnyn981, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp455, 3, 1.0
+NODE-xnyn981, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp367, INSTANCE=RVE-instance
+367
+*NSET, NSET=NODE-xnyn949, INSTANCE=RVE-instance
+949
+** CONSTRAINT: EQUATIONS NODES-xnyn-949-xnyp-367
+*EQUATION
+3
+NODE-xnyp367, 1, 1.0
+NODE-xnyn949, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp367, 2, 1.0
+NODE-xnyn949, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp367, 3, 1.0
+NODE-xnyn949, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp285, INSTANCE=RVE-instance
+285
+*NSET, NSET=NODE-xnyn908, INSTANCE=RVE-instance
+908
+** CONSTRAINT: EQUATIONS NODES-xnyn-908-xnyp-285
+*EQUATION
+3
+NODE-xnyp285, 1, 1.0
+NODE-xnyn908, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp285, 2, 1.0
+NODE-xnyn908, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp285, 3, 1.0
+NODE-xnyn908, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp211, INSTANCE=RVE-instance
+211
+*NSET, NSET=NODE-xnyn854, INSTANCE=RVE-instance
+854
+** CONSTRAINT: EQUATIONS NODES-xnyn-854-xnyp-211
+*EQUATION
+3
+NODE-xnyp211, 1, 1.0
+NODE-xnyn854, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp211, 2, 1.0
+NODE-xnyn854, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp211, 3, 1.0
+NODE-xnyn854, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp148, INSTANCE=RVE-instance
+148
+*NSET, NSET=NODE-xnyn785, INSTANCE=RVE-instance
+785
+** CONSTRAINT: EQUATIONS NODES-xnyn-785-xnyp-148
+*EQUATION
+3
+NODE-xnyp148, 1, 1.0
+NODE-xnyn785, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp148, 2, 1.0
+NODE-xnyn785, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp148, 3, 1.0
+NODE-xnyn785, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xnyp95, INSTANCE=RVE-instance
+95
+*NSET, NSET=NODE-xnyn705, INSTANCE=RVE-instance
+705
+** CONSTRAINT: EQUATIONS NODES-xnyn-705-xnyp-95
+*EQUATION
+3
+NODE-xnyp95, 1, 1.0
+NODE-xnyn705, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-xnyp95, 2, 1.0
+NODE-xnyn705, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-xnyp95, 3, 1.0
+NODE-xnyn705, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn776, INSTANCE=RVE-instance
+776
+*NSET, NSET=NODE-xnyn1020, INSTANCE=RVE-instance
+1020
+** CONSTRAINT: EQUATIONS NODES-xnyn-1020-xpyn-776
+*EQUATION
+3
+NODE-xpyn776, 1, 1.0
+NODE-xnyn1020, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn776, 2, 1.0
+NODE-xnyn1020, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn776, 3, 1.0
+NODE-xnyn1020, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn696, INSTANCE=RVE-instance
+696
+*NSET, NSET=NODE-xnyn1014, INSTANCE=RVE-instance
+1014
+** CONSTRAINT: EQUATIONS NODES-xnyn-1014-xpyn-696
+*EQUATION
+3
+NODE-xpyn696, 1, 1.0
+NODE-xnyn1014, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn696, 2, 1.0
+NODE-xnyn1014, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn696, 3, 1.0
+NODE-xnyn1014, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn609, INSTANCE=RVE-instance
+609
+*NSET, NSET=NODE-xnyn1002, INSTANCE=RVE-instance
+1002
+** CONSTRAINT: EQUATIONS NODES-xnyn-1002-xpyn-609
+*EQUATION
+3
+NODE-xpyn609, 1, 1.0
+NODE-xnyn1002, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn609, 2, 1.0
+NODE-xnyn1002, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn609, 3, 1.0
+NODE-xnyn1002, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn519, INSTANCE=RVE-instance
+519
+*NSET, NSET=NODE-xnyn981, INSTANCE=RVE-instance
+981
+** CONSTRAINT: EQUATIONS NODES-xnyn-981-xpyn-519
+*EQUATION
+3
+NODE-xpyn519, 1, 1.0
+NODE-xnyn981, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn519, 2, 1.0
+NODE-xnyn981, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn519, 3, 1.0
+NODE-xnyn981, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn429, INSTANCE=RVE-instance
+429
+*NSET, NSET=NODE-xnyn949, INSTANCE=RVE-instance
+949
+** CONSTRAINT: EQUATIONS NODES-xnyn-949-xpyn-429
+*EQUATION
+3
+NODE-xpyn429, 1, 1.0
+NODE-xnyn949, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn429, 2, 1.0
+NODE-xnyn949, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn429, 3, 1.0
+NODE-xnyn949, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn343, INSTANCE=RVE-instance
+343
+*NSET, NSET=NODE-xnyn908, INSTANCE=RVE-instance
+908
+** CONSTRAINT: EQUATIONS NODES-xnyn-908-xpyn-343
+*EQUATION
+3
+NODE-xpyn343, 1, 1.0
+NODE-xnyn908, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn343, 2, 1.0
+NODE-xnyn908, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn343, 3, 1.0
+NODE-xnyn908, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn264, INSTANCE=RVE-instance
+264
+*NSET, NSET=NODE-xnyn854, INSTANCE=RVE-instance
+854
+** CONSTRAINT: EQUATIONS NODES-xnyn-854-xpyn-264
+*EQUATION
+3
+NODE-xpyn264, 1, 1.0
+NODE-xnyn854, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn264, 2, 1.0
+NODE-xnyn854, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn264, 3, 1.0
+NODE-xnyn854, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn194, INSTANCE=RVE-instance
+194
+*NSET, NSET=NODE-xnyn785, INSTANCE=RVE-instance
+785
+** CONSTRAINT: EQUATIONS NODES-xnyn-785-xpyn-194
+*EQUATION
+3
+NODE-xpyn194, 1, 1.0
+NODE-xnyn785, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn194, 2, 1.0
+NODE-xnyn785, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn194, 3, 1.0
+NODE-xnyn785, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyn134, INSTANCE=RVE-instance
+134
+*NSET, NSET=NODE-xnyn705, INSTANCE=RVE-instance
+705
+** CONSTRAINT: EQUATIONS NODES-xnyn-705-xpyn-134
+*EQUATION
+3
+NODE-xpyn134, 1, 1.0
+NODE-xnyn705, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xpyn134, 2, 1.0
+NODE-xnyn705, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xpyn134, 3, 1.0
+NODE-xnyn705, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp411, INSTANCE=RVE-instance
+411
+*NSET, NSET=NODE-xnyn1020, INSTANCE=RVE-instance
+1020
+** CONSTRAINT: EQUATIONS NODES-xnyn-1020-xpyp-411
+*EQUATION
+4
+NODE-xpyp411, 1, 1.0
+NODE-xnyn1020, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp411, 2, 1.0
+NODE-xnyn1020, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp411, 3, 1.0
+NODE-xnyn1020, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp326, INSTANCE=RVE-instance
+326
+*NSET, NSET=NODE-xnyn1014, INSTANCE=RVE-instance
+1014
+** CONSTRAINT: EQUATIONS NODES-xnyn-1014-xpyp-326
+*EQUATION
+4
+NODE-xpyp326, 1, 1.0
+NODE-xnyn1014, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp326, 2, 1.0
+NODE-xnyn1014, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp326, 3, 1.0
+NODE-xnyn1014, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp248, INSTANCE=RVE-instance
+248
+*NSET, NSET=NODE-xnyn1002, INSTANCE=RVE-instance
+1002
+** CONSTRAINT: EQUATIONS NODES-xnyn-1002-xpyp-248
+*EQUATION
+4
+NODE-xpyp248, 1, 1.0
+NODE-xnyn1002, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp248, 2, 1.0
+NODE-xnyn1002, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp248, 3, 1.0
+NODE-xnyn1002, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp180, INSTANCE=RVE-instance
+180
+*NSET, NSET=NODE-xnyn981, INSTANCE=RVE-instance
+981
+** CONSTRAINT: EQUATIONS NODES-xnyn-981-xpyp-180
+*EQUATION
+4
+NODE-xpyp180, 1, 1.0
+NODE-xnyn981, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp180, 2, 1.0
+NODE-xnyn981, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp180, 3, 1.0
+NODE-xnyn981, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp121, INSTANCE=RVE-instance
+121
+*NSET, NSET=NODE-xnyn949, INSTANCE=RVE-instance
+949
+** CONSTRAINT: EQUATIONS NODES-xnyn-949-xpyp-121
+*EQUATION
+4
+NODE-xpyp121, 1, 1.0
+NODE-xnyn949, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp121, 2, 1.0
+NODE-xnyn949, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp121, 3, 1.0
+NODE-xnyn949, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp73, INSTANCE=RVE-instance
+73
+*NSET, NSET=NODE-xnyn908, INSTANCE=RVE-instance
+908
+** CONSTRAINT: EQUATIONS NODES-xnyn-908-xpyp-73
+*EQUATION
+4
+NODE-xpyp73, 1, 1.0
+NODE-xnyn908, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp73, 2, 1.0
+NODE-xnyn908, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp73, 3, 1.0
+NODE-xnyn908, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp39, INSTANCE=RVE-instance
+39
+*NSET, NSET=NODE-xnyn854, INSTANCE=RVE-instance
+854
+** CONSTRAINT: EQUATIONS NODES-xnyn-854-xpyp-39
+*EQUATION
+4
+NODE-xpyp39, 1, 1.0
+NODE-xnyn854, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp39, 2, 1.0
+NODE-xnyn854, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp39, 3, 1.0
+NODE-xnyn854, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp19, INSTANCE=RVE-instance
+19
+*NSET, NSET=NODE-xnyn785, INSTANCE=RVE-instance
+785
+** CONSTRAINT: EQUATIONS NODES-xnyn-785-xpyp-19
+*EQUATION
+4
+NODE-xpyp19, 1, 1.0
+NODE-xnyn785, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp19, 2, 1.0
+NODE-xnyn785, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp19, 3, 1.0
+NODE-xnyn785, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xpyp8, INSTANCE=RVE-instance
+8
+*NSET, NSET=NODE-xnyn705, INSTANCE=RVE-instance
+705
+** CONSTRAINT: EQUATIONS NODES-xnyn-705-xpyp-8
+*EQUATION
+4
+NODE-xpyp8, 1, 1.0
+NODE-xnyn705, 1, -1.0
+RP2, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+4
+NODE-xpyp8, 2, 1.0
+NODE-xnyn705, 2, -1.0
+RP2, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+4
+NODE-xpyp8, 3, 1.0
+NODE-xnyn705, 3, -1.0
+RP2, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ynzp555, INSTANCE=RVE-instance
+555
+*NSET, NSET=NODE-ynzn1022, INSTANCE=RVE-instance
+1022
+** CONSTRAINT: EQUATIONS NODES-ynzn-1022-ynzp-555
+*EQUATION
+3
+NODE-ynzp555, 1, 1.0
+NODE-ynzn1022, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-ynzp555, 2, 1.0
+NODE-ynzn1022, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-ynzp555, 3, 1.0
+NODE-ynzn1022, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ynzp466, INSTANCE=RVE-instance
+466
+*NSET, NSET=NODE-ynzn1019, INSTANCE=RVE-instance
+1019
+** CONSTRAINT: EQUATIONS NODES-ynzn-1019-ynzp-466
+*EQUATION
+3
+NODE-ynzp466, 1, 1.0
+NODE-ynzn1019, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-ynzp466, 2, 1.0
+NODE-ynzn1019, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-ynzp466, 3, 1.0
+NODE-ynzn1019, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ynzp436, INSTANCE=RVE-instance
+436
+*NSET, NSET=NODE-ynzn1013, INSTANCE=RVE-instance
+1013
+** CONSTRAINT: EQUATIONS NODES-ynzn-1013-ynzp-436
+*EQUATION
+3
+NODE-ynzp436, 1, 1.0
+NODE-ynzn1013, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-ynzp436, 2, 1.0
+NODE-ynzn1013, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-ynzp436, 3, 1.0
+NODE-ynzn1013, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ynzp349, INSTANCE=RVE-instance
+349
+*NSET, NSET=NODE-ynzn999, INSTANCE=RVE-instance
+999
+** CONSTRAINT: EQUATIONS NODES-ynzn-999-ynzp-349
+*EQUATION
+3
+NODE-ynzp349, 1, 1.0
+NODE-ynzn999, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-ynzp349, 2, 1.0
+NODE-ynzn999, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-ynzp349, 3, 1.0
+NODE-ynzn999, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ynzp269, INSTANCE=RVE-instance
+269
+*NSET, NSET=NODE-ynzn977, INSTANCE=RVE-instance
+977
+** CONSTRAINT: EQUATIONS NODES-ynzn-977-ynzp-269
+*EQUATION
+3
+NODE-ynzp269, 1, 1.0
+NODE-ynzn977, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-ynzp269, 2, 1.0
+NODE-ynzn977, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-ynzp269, 3, 1.0
+NODE-ynzn977, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ynzp197, INSTANCE=RVE-instance
+197
+*NSET, NSET=NODE-ynzn943, INSTANCE=RVE-instance
+943
+** CONSTRAINT: EQUATIONS NODES-ynzn-943-ynzp-197
+*EQUATION
+3
+NODE-ynzp197, 1, 1.0
+NODE-ynzn943, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-ynzp197, 2, 1.0
+NODE-ynzn943, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-ynzp197, 3, 1.0
+NODE-ynzn943, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ynzp136, INSTANCE=RVE-instance
+136
+*NSET, NSET=NODE-ynzn901, INSTANCE=RVE-instance
+901
+** CONSTRAINT: EQUATIONS NODES-ynzn-901-ynzp-136
+*EQUATION
+3
+NODE-ynzp136, 1, 1.0
+NODE-ynzn901, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-ynzp136, 2, 1.0
+NODE-ynzn901, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-ynzp136, 3, 1.0
+NODE-ynzn901, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzn721, INSTANCE=RVE-instance
+721
+*NSET, NSET=NODE-ynzn1022, INSTANCE=RVE-instance
+1022
+** CONSTRAINT: EQUATIONS NODES-ynzn-1022-ypzn-721
+*EQUATION
+3
+NODE-ypzn721, 1, 1.0
+NODE-ynzn1022, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-ypzn721, 2, 1.0
+NODE-ynzn1022, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-ypzn721, 3, 1.0
+NODE-ynzn1022, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzn797, INSTANCE=RVE-instance
+797
+*NSET, NSET=NODE-ynzn1019, INSTANCE=RVE-instance
+1019
+** CONSTRAINT: EQUATIONS NODES-ynzn-1019-ypzn-797
+*EQUATION
+3
+NODE-ypzn797, 1, 1.0
+NODE-ynzn1019, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-ypzn797, 2, 1.0
+NODE-ynzn1019, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-ypzn797, 3, 1.0
+NODE-ynzn1019, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzn719, INSTANCE=RVE-instance
+719
+*NSET, NSET=NODE-ynzn1013, INSTANCE=RVE-instance
+1013
+** CONSTRAINT: EQUATIONS NODES-ynzn-1013-ypzn-719
+*EQUATION
+3
+NODE-ypzn719, 1, 1.0
+NODE-ynzn1013, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-ypzn719, 2, 1.0
+NODE-ynzn1013, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-ypzn719, 3, 1.0
+NODE-ynzn1013, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzn715, INSTANCE=RVE-instance
+715
+*NSET, NSET=NODE-ynzn999, INSTANCE=RVE-instance
+999
+** CONSTRAINT: EQUATIONS NODES-ynzn-999-ypzn-715
+*EQUATION
+3
+NODE-ypzn715, 1, 1.0
+NODE-ynzn999, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-ypzn715, 2, 1.0
+NODE-ynzn999, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-ypzn715, 3, 1.0
+NODE-ynzn999, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzn628, INSTANCE=RVE-instance
+628
+*NSET, NSET=NODE-ynzn977, INSTANCE=RVE-instance
+977
+** CONSTRAINT: EQUATIONS NODES-ynzn-977-ypzn-628
+*EQUATION
+3
+NODE-ypzn628, 1, 1.0
+NODE-ynzn977, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-ypzn628, 2, 1.0
+NODE-ynzn977, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-ypzn628, 3, 1.0
+NODE-ynzn977, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzn657, INSTANCE=RVE-instance
+657
+*NSET, NSET=NODE-ynzn943, INSTANCE=RVE-instance
+943
+** CONSTRAINT: EQUATIONS NODES-ynzn-943-ypzn-657
+*EQUATION
+3
+NODE-ypzn657, 1, 1.0
+NODE-ynzn943, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-ypzn657, 2, 1.0
+NODE-ynzn943, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-ypzn657, 3, 1.0
+NODE-ynzn943, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzn567, INSTANCE=RVE-instance
+567
+*NSET, NSET=NODE-ynzn901, INSTANCE=RVE-instance
+901
+** CONSTRAINT: EQUATIONS NODES-ynzn-901-ypzn-567
+*EQUATION
+3
+NODE-ypzn567, 1, 1.0
+NODE-ynzn901, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-ypzn567, 2, 1.0
+NODE-ynzn901, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-ypzn567, 3, 1.0
+NODE-ynzn901, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzp25, INSTANCE=RVE-instance
+25
+*NSET, NSET=NODE-ynzn1022, INSTANCE=RVE-instance
+1022
+** CONSTRAINT: EQUATIONS NODES-ynzn-1022-ypzp-25
+*EQUATION
+4
+NODE-ypzp25, 1, 1.0
+NODE-ynzn1022, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-ypzp25, 2, 1.0
+NODE-ynzn1022, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-ypzp25, 3, 1.0
+NODE-ynzn1022, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzp50, INSTANCE=RVE-instance
+50
+*NSET, NSET=NODE-ynzn1019, INSTANCE=RVE-instance
+1019
+** CONSTRAINT: EQUATIONS NODES-ynzn-1019-ypzp-50
+*EQUATION
+4
+NODE-ypzp50, 1, 1.0
+NODE-ynzn1019, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-ypzp50, 2, 1.0
+NODE-ynzn1019, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-ypzp50, 3, 1.0
+NODE-ynzn1019, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzp24, INSTANCE=RVE-instance
+24
+*NSET, NSET=NODE-ynzn1013, INSTANCE=RVE-instance
+1013
+** CONSTRAINT: EQUATIONS NODES-ynzn-1013-ypzp-24
+*EQUATION
+4
+NODE-ypzp24, 1, 1.0
+NODE-ynzn1013, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-ypzp24, 2, 1.0
+NODE-ynzn1013, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-ypzp24, 3, 1.0
+NODE-ynzn1013, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzp23, INSTANCE=RVE-instance
+23
+*NSET, NSET=NODE-ynzn999, INSTANCE=RVE-instance
+999
+** CONSTRAINT: EQUATIONS NODES-ynzn-999-ypzp-23
+*EQUATION
+4
+NODE-ypzp23, 1, 1.0
+NODE-ynzn999, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-ypzp23, 2, 1.0
+NODE-ynzn999, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-ypzp23, 3, 1.0
+NODE-ynzn999, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzp9, INSTANCE=RVE-instance
+9
+*NSET, NSET=NODE-ynzn977, INSTANCE=RVE-instance
+977
+** CONSTRAINT: EQUATIONS NODES-ynzn-977-ypzp-9
+*EQUATION
+4
+NODE-ypzp9, 1, 1.0
+NODE-ynzn977, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-ypzp9, 2, 1.0
+NODE-ynzn977, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-ypzp9, 3, 1.0
+NODE-ynzn977, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzp10, INSTANCE=RVE-instance
+10
+*NSET, NSET=NODE-ynzn943, INSTANCE=RVE-instance
+943
+** CONSTRAINT: EQUATIONS NODES-ynzn-943-ypzp-10
+*EQUATION
+4
+NODE-ypzp10, 1, 1.0
+NODE-ynzn943, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-ypzp10, 2, 1.0
+NODE-ynzn943, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-ypzp10, 3, 1.0
+NODE-ynzn943, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-ypzp3, INSTANCE=RVE-instance
+3
+*NSET, NSET=NODE-ynzn901, INSTANCE=RVE-instance
+901
+** CONSTRAINT: EQUATIONS NODES-ynzn-901-ypzp-3
+*EQUATION
+4
+NODE-ypzp3, 1, 1.0
+NODE-ynzn901, 1, -1.0
+RP3, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+4
+NODE-ypzp3, 2, 1.0
+NODE-ynzn901, 2, -1.0
+RP3, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+4
+NODE-ypzp3, 3, 1.0
+NODE-ynzn901, 3, -1.0
+RP3, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp292, INSTANCE=RVE-instance
+292
+*NSET, NSET=NODE-zn989, INSTANCE=RVE-instance
+989
+** CONSTRAINT: EQUATIONS NODES-zn-989-zp-292
+*EQUATION
+3
+NODE-zp292, 1, 1.0
+NODE-zn989, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp292, 2, 1.0
+NODE-zn989, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp292, 3, 1.0
+NODE-zn989, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp215, INSTANCE=RVE-instance
+215
+*NSET, NSET=NODE-zn957, INSTANCE=RVE-instance
+957
+** CONSTRAINT: EQUATIONS NODES-zn-957-zp-215
+*EQUATION
+3
+NODE-zp215, 1, 1.0
+NODE-zn957, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp215, 2, 1.0
+NODE-zn957, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp215, 3, 1.0
+NODE-zn957, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp271, INSTANCE=RVE-instance
+271
+*NSET, NSET=NODE-zn986, INSTANCE=RVE-instance
+986
+** CONSTRAINT: EQUATIONS NODES-zn-986-zp-271
+*EQUATION
+3
+NODE-zp271, 1, 1.0
+NODE-zn986, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp271, 2, 1.0
+NODE-zn986, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp271, 3, 1.0
+NODE-zn986, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp376, INSTANCE=RVE-instance
+376
+*NSET, NSET=NODE-zn1009, INSTANCE=RVE-instance
+1009
+** CONSTRAINT: EQUATIONS NODES-zn-1009-zp-376
+*EQUATION
+3
+NODE-zp376, 1, 1.0
+NODE-zn1009, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp376, 2, 1.0
+NODE-zn1009, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp376, 3, 1.0
+NODE-zn1009, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp96, INSTANCE=RVE-instance
+96
+*NSET, NSET=NODE-zn865, INSTANCE=RVE-instance
+865
+** CONSTRAINT: EQUATIONS NODES-zn-865-zp-96
+*EQUATION
+3
+NODE-zp96, 1, 1.0
+NODE-zn865, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp96, 2, 1.0
+NODE-zn865, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp96, 3, 1.0
+NODE-zn865, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp464, INSTANCE=RVE-instance
+464
+*NSET, NSET=NODE-zn1018, INSTANCE=RVE-instance
+1018
+** CONSTRAINT: EQUATIONS NODES-zn-1018-zp-464
+*EQUATION
+3
+NODE-zp464, 1, 1.0
+NODE-zn1018, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp464, 2, 1.0
+NODE-zn1018, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp464, 3, 1.0
+NODE-zn1018, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp53, INSTANCE=RVE-instance
+53
+*NSET, NSET=NODE-zn799, INSTANCE=RVE-instance
+799
+** CONSTRAINT: EQUATIONS NODES-zn-799-zp-53
+*EQUATION
+3
+NODE-zp53, 1, 1.0
+NODE-zn799, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp53, 2, 1.0
+NODE-zn799, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp53, 3, 1.0
+NODE-zn799, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp351, INSTANCE=RVE-instance
+351
+*NSET, NSET=NODE-zn1005, INSTANCE=RVE-instance
+1005
+** CONSTRAINT: EQUATIONS NODES-zn-1005-zp-351
+*EQUATION
+3
+NODE-zp351, 1, 1.0
+NODE-zn1005, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp351, 2, 1.0
+NODE-zn1005, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp351, 3, 1.0
+NODE-zn1005, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp198, INSTANCE=RVE-instance
+198
+*NSET, NSET=NODE-zn955, INSTANCE=RVE-instance
+955
+** CONSTRAINT: EQUATIONS NODES-zn-955-zp-198
+*EQUATION
+3
+NODE-zp198, 1, 1.0
+NODE-zn955, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp198, 2, 1.0
+NODE-zn955, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp198, 3, 1.0
+NODE-zn955, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp426, INSTANCE=RVE-instance
+426
+*NSET, NSET=NODE-zn1012, INSTANCE=RVE-instance
+1012
+** CONSTRAINT: EQUATIONS NODES-zn-1012-zp-426
+*EQUATION
+3
+NODE-zp426, 1, 1.0
+NODE-zn1012, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp426, 2, 1.0
+NODE-zn1012, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp426, 3, 1.0
+NODE-zn1012, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp90, INSTANCE=RVE-instance
+90
+*NSET, NSET=NODE-zn863, INSTANCE=RVE-instance
+863
+** CONSTRAINT: EQUATIONS NODES-zn-863-zp-90
+*EQUATION
+3
+NODE-zp90, 1, 1.0
+NODE-zn863, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp90, 2, 1.0
+NODE-zn863, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp90, 3, 1.0
+NODE-zn863, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp208, INSTANCE=RVE-instance
+208
+*NSET, NSET=NODE-zn956, INSTANCE=RVE-instance
+956
+** CONSTRAINT: EQUATIONS NODES-zn-956-zp-208
+*EQUATION
+3
+NODE-zp208, 1, 1.0
+NODE-zn956, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp208, 2, 1.0
+NODE-zn956, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp208, 3, 1.0
+NODE-zn956, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp340, INSTANCE=RVE-instance
+340
+*NSET, NSET=NODE-zn997, INSTANCE=RVE-instance
+997
+** CONSTRAINT: EQUATIONS NODES-zn-997-zp-340
+*EQUATION
+3
+NODE-zp340, 1, 1.0
+NODE-zn997, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp340, 2, 1.0
+NODE-zn997, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp340, 3, 1.0
+NODE-zn997, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp137, INSTANCE=RVE-instance
+137
+*NSET, NSET=NODE-zn915, INSTANCE=RVE-instance
+915
+** CONSTRAINT: EQUATIONS NODES-zn-915-zp-137
+*EQUATION
+3
+NODE-zp137, 1, 1.0
+NODE-zn915, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp137, 2, 1.0
+NODE-zn915, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp137, 3, 1.0
+NODE-zn915, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp159, INSTANCE=RVE-instance
+159
+*NSET, NSET=NODE-zn931, INSTANCE=RVE-instance
+931
+** CONSTRAINT: EQUATIONS NODES-zn-931-zp-159
+*EQUATION
+3
+NODE-zp159, 1, 1.0
+NODE-zn931, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp159, 2, 1.0
+NODE-zn931, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp159, 3, 1.0
+NODE-zn931, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp270, INSTANCE=RVE-instance
+270
+*NSET, NSET=NODE-zn985, INSTANCE=RVE-instance
+985
+** CONSTRAINT: EQUATIONS NODES-zn-985-zp-270
+*EQUATION
+3
+NODE-zp270, 1, 1.0
+NODE-zn985, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp270, 2, 1.0
+NODE-zn985, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp270, 3, 1.0
+NODE-zn985, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp261, INSTANCE=RVE-instance
+261
+*NSET, NSET=NODE-zn973, INSTANCE=RVE-instance
+973
+** CONSTRAINT: EQUATIONS NODES-zn-973-zp-261
+*EQUATION
+3
+NODE-zp261, 1, 1.0
+NODE-zn973, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp261, 2, 1.0
+NODE-zn973, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp261, 3, 1.0
+NODE-zn973, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp104, INSTANCE=RVE-instance
+104
+*NSET, NSET=NODE-zn883, INSTANCE=RVE-instance
+883
+** CONSTRAINT: EQUATIONS NODES-zn-883-zp-104
+*EQUATION
+3
+NODE-zp104, 1, 1.0
+NODE-zn883, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp104, 2, 1.0
+NODE-zn883, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp104, 3, 1.0
+NODE-zn883, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp377, INSTANCE=RVE-instance
+377
+*NSET, NSET=NODE-zn1011, INSTANCE=RVE-instance
+1011
+** CONSTRAINT: EQUATIONS NODES-zn-1011-zp-377
+*EQUATION
+3
+NODE-zp377, 1, 1.0
+NODE-zn1011, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp377, 2, 1.0
+NODE-zn1011, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp377, 3, 1.0
+NODE-zn1011, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp85, INSTANCE=RVE-instance
+85
+*NSET, NSET=NODE-zn862, INSTANCE=RVE-instance
+862
+** CONSTRAINT: EQUATIONS NODES-zn-862-zp-85
+*EQUATION
+3
+NODE-zp85, 1, 1.0
+NODE-zn862, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp85, 2, 1.0
+NODE-zn862, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp85, 3, 1.0
+NODE-zn862, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp60, INSTANCE=RVE-instance
+60
+*NSET, NSET=NODE-zn821, INSTANCE=RVE-instance
+821
+** CONSTRAINT: EQUATIONS NODES-zn-821-zp-60
+*EQUATION
+3
+NODE-zp60, 1, 1.0
+NODE-zn821, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp60, 2, 1.0
+NODE-zn821, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp60, 3, 1.0
+NODE-zn821, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp217, INSTANCE=RVE-instance
+217
+*NSET, NSET=NODE-zn968, INSTANCE=RVE-instance
+968
+** CONSTRAINT: EQUATIONS NODES-zn-968-zp-217
+*EQUATION
+3
+NODE-zp217, 1, 1.0
+NODE-zn968, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp217, 2, 1.0
+NODE-zn968, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp217, 3, 1.0
+NODE-zn968, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp350, INSTANCE=RVE-instance
+350
+*NSET, NSET=NODE-zn1001, INSTANCE=RVE-instance
+1001
+** CONSTRAINT: EQUATIONS NODES-zn-1001-zp-350
+*EQUATION
+3
+NODE-zp350, 1, 1.0
+NODE-zn1001, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp350, 2, 1.0
+NODE-zn1001, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp350, 3, 1.0
+NODE-zn1001, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp49, INSTANCE=RVE-instance
+49
+*NSET, NSET=NODE-zn795, INSTANCE=RVE-instance
+795
+** CONSTRAINT: EQUATIONS NODES-zn-795-zp-49
+*EQUATION
+3
+NODE-zp49, 1, 1.0
+NODE-zn795, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp49, 2, 1.0
+NODE-zn795, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp49, 3, 1.0
+NODE-zn795, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp293, INSTANCE=RVE-instance
+293
+*NSET, NSET=NODE-zn995, INSTANCE=RVE-instance
+995
+** CONSTRAINT: EQUATIONS NODES-zn-995-zp-293
+*EQUATION
+3
+NODE-zp293, 1, 1.0
+NODE-zn995, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp293, 2, 1.0
+NODE-zn995, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp293, 3, 1.0
+NODE-zn995, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp152, INSTANCE=RVE-instance
+152
+*NSET, NSET=NODE-zn930, INSTANCE=RVE-instance
+930
+** CONSTRAINT: EQUATIONS NODES-zn-930-zp-152
+*EQUATION
+3
+NODE-zp152, 1, 1.0
+NODE-zn930, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp152, 2, 1.0
+NODE-zn930, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp152, 3, 1.0
+NODE-zn930, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp30, INSTANCE=RVE-instance
+30
+*NSET, NSET=NODE-zn746, INSTANCE=RVE-instance
+746
+** CONSTRAINT: EQUATIONS NODES-zn-746-zp-30
+*EQUATION
+3
+NODE-zp30, 1, 1.0
+NODE-zn746, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp30, 2, 1.0
+NODE-zn746, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp30, 3, 1.0
+NODE-zn746, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp166, INSTANCE=RVE-instance
+166
+*NSET, NSET=NODE-zn934, INSTANCE=RVE-instance
+934
+** CONSTRAINT: EQUATIONS NODES-zn-934-zp-166
+*EQUATION
+3
+NODE-zp166, 1, 1.0
+NODE-zn934, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp166, 2, 1.0
+NODE-zn934, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp166, 3, 1.0
+NODE-zn934, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp98, INSTANCE=RVE-instance
+98
+*NSET, NSET=NODE-zn881, INSTANCE=RVE-instance
+881
+** CONSTRAINT: EQUATIONS NODES-zn-881-zp-98
+*EQUATION
+3
+NODE-zp98, 1, 1.0
+NODE-zn881, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp98, 2, 1.0
+NODE-zn881, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp98, 3, 1.0
+NODE-zn881, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp314, INSTANCE=RVE-instance
+314
+*NSET, NSET=NODE-zn996, INSTANCE=RVE-instance
+996
+** CONSTRAINT: EQUATIONS NODES-zn-996-zp-314
+*EQUATION
+3
+NODE-zp314, 1, 1.0
+NODE-zn996, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp314, 2, 1.0
+NODE-zn996, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp314, 3, 1.0
+NODE-zn996, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp46, INSTANCE=RVE-instance
+46
+*NSET, NSET=NODE-zn794, INSTANCE=RVE-instance
+794
+** CONSTRAINT: EQUATIONS NODES-zn-794-zp-46
+*EQUATION
+3
+NODE-zp46, 1, 1.0
+NODE-zn794, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp46, 2, 1.0
+NODE-zn794, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp46, 3, 1.0
+NODE-zn794, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp256, INSTANCE=RVE-instance
+256
+*NSET, NSET=NODE-zn972, INSTANCE=RVE-instance
+972
+** CONSTRAINT: EQUATIONS NODES-zn-972-zp-256
+*EQUATION
+3
+NODE-zp256, 1, 1.0
+NODE-zn972, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp256, 2, 1.0
+NODE-zn972, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp256, 3, 1.0
+NODE-zn972, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp109, INSTANCE=RVE-instance
+109
+*NSET, NSET=NODE-zn888, INSTANCE=RVE-instance
+888
+** CONSTRAINT: EQUATIONS NODES-zn-888-zp-109
+*EQUATION
+3
+NODE-zp109, 1, 1.0
+NODE-zn888, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp109, 2, 1.0
+NODE-zn888, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp109, 3, 1.0
+NODE-zn888, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp229, INSTANCE=RVE-instance
+229
+*NSET, NSET=NODE-zn969, INSTANCE=RVE-instance
+969
+** CONSTRAINT: EQUATIONS NODES-zn-969-zp-229
+*EQUATION
+3
+NODE-zp229, 1, 1.0
+NODE-zn969, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp229, 2, 1.0
+NODE-zn969, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp229, 3, 1.0
+NODE-zn969, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp55, INSTANCE=RVE-instance
+55
+*NSET, NSET=NODE-zn818, INSTANCE=RVE-instance
+818
+** CONSTRAINT: EQUATIONS NODES-zn-818-zp-55
+*EQUATION
+3
+NODE-zp55, 1, 1.0
+NODE-zn818, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp55, 2, 1.0
+NODE-zn818, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp55, 3, 1.0
+NODE-zn818, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp63, INSTANCE=RVE-instance
+63
+*NSET, NSET=NODE-zn828, INSTANCE=RVE-instance
+828
+** CONSTRAINT: EQUATIONS NODES-zn-828-zp-63
+*EQUATION
+3
+NODE-zp63, 1, 1.0
+NODE-zn828, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp63, 2, 1.0
+NODE-zn828, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp63, 3, 1.0
+NODE-zn828, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp268, INSTANCE=RVE-instance
+268
+*NSET, NSET=NODE-zn976, INSTANCE=RVE-instance
+976
+** CONSTRAINT: EQUATIONS NODES-zn-976-zp-268
+*EQUATION
+3
+NODE-zp268, 1, 1.0
+NODE-zn976, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp268, 2, 1.0
+NODE-zn976, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp268, 3, 1.0
+NODE-zn976, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp12, INSTANCE=RVE-instance
+12
+*NSET, NSET=NODE-zn658, INSTANCE=RVE-instance
+658
+** CONSTRAINT: EQUATIONS NODES-zn-658-zp-12
+*EQUATION
+3
+NODE-zp12, 1, 1.0
+NODE-zn658, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp12, 2, 1.0
+NODE-zn658, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp12, 3, 1.0
+NODE-zn658, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp188, INSTANCE=RVE-instance
+188
+*NSET, NSET=NODE-zn939, INSTANCE=RVE-instance
+939
+** CONSTRAINT: EQUATIONS NODES-zn-939-zp-188
+*EQUATION
+3
+NODE-zp188, 1, 1.0
+NODE-zn939, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp188, 2, 1.0
+NODE-zn939, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp188, 3, 1.0
+NODE-zn939, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp163, INSTANCE=RVE-instance
+163
+*NSET, NSET=NODE-zn933, INSTANCE=RVE-instance
+933
+** CONSTRAINT: EQUATIONS NODES-zn-933-zp-163
+*EQUATION
+3
+NODE-zp163, 1, 1.0
+NODE-zn933, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp163, 2, 1.0
+NODE-zn933, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp163, 3, 1.0
+NODE-zn933, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp237, INSTANCE=RVE-instance
+237
+*NSET, NSET=NODE-zn971, INSTANCE=RVE-instance
+971
+** CONSTRAINT: EQUATIONS NODES-zn-971-zp-237
+*EQUATION
+3
+NODE-zp237, 1, 1.0
+NODE-zn971, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp237, 2, 1.0
+NODE-zn971, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp237, 3, 1.0
+NODE-zn971, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp26, INSTANCE=RVE-instance
+26
+*NSET, NSET=NODE-zn742, INSTANCE=RVE-instance
+742
+** CONSTRAINT: EQUATIONS NODES-zn-742-zp-26
+*EQUATION
+3
+NODE-zp26, 1, 1.0
+NODE-zn742, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp26, 2, 1.0
+NODE-zn742, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp26, 3, 1.0
+NODE-zn742, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp31, INSTANCE=RVE-instance
+31
+*NSET, NSET=NODE-zn754, INSTANCE=RVE-instance
+754
+** CONSTRAINT: EQUATIONS NODES-zn-754-zp-31
+*EQUATION
+3
+NODE-zp31, 1, 1.0
+NODE-zn754, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp31, 2, 1.0
+NODE-zn754, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp31, 3, 1.0
+NODE-zn754, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp107, INSTANCE=RVE-instance
+107
+*NSET, NSET=NODE-zn886, INSTANCE=RVE-instance
+886
+** CONSTRAINT: EQUATIONS NODES-zn-886-zp-107
+*EQUATION
+3
+NODE-zp107, 1, 1.0
+NODE-zn886, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp107, 2, 1.0
+NODE-zn886, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp107, 3, 1.0
+NODE-zn886, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp129, INSTANCE=RVE-instance
+129
+*NSET, NSET=NODE-zn896, INSTANCE=RVE-instance
+896
+** CONSTRAINT: EQUATIONS NODES-zn-896-zp-129
+*EQUATION
+3
+NODE-zp129, 1, 1.0
+NODE-zn896, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp129, 2, 1.0
+NODE-zn896, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp129, 3, 1.0
+NODE-zn896, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp62, INSTANCE=RVE-instance
+62
+*NSET, NSET=NODE-zn825, INSTANCE=RVE-instance
+825
+** CONSTRAINT: EQUATIONS NODES-zn-825-zp-62
+*EQUATION
+3
+NODE-zp62, 1, 1.0
+NODE-zn825, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp62, 2, 1.0
+NODE-zn825, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp62, 3, 1.0
+NODE-zn825, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp80, INSTANCE=RVE-instance
+80
+*NSET, NSET=NODE-zn840, INSTANCE=RVE-instance
+840
+** CONSTRAINT: EQUATIONS NODES-zn-840-zp-80
+*EQUATION
+3
+NODE-zp80, 1, 1.0
+NODE-zn840, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp80, 2, 1.0
+NODE-zn840, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp80, 3, 1.0
+NODE-zn840, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp170, INSTANCE=RVE-instance
+170
+*NSET, NSET=NODE-zn937, INSTANCE=RVE-instance
+937
+** CONSTRAINT: EQUATIONS NODES-zn-937-zp-170
+*EQUATION
+3
+NODE-zp170, 1, 1.0
+NODE-zn937, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp170, 2, 1.0
+NODE-zn937, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp170, 3, 1.0
+NODE-zn937, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp13, INSTANCE=RVE-instance
+13
+*NSET, NSET=NODE-zn677, INSTANCE=RVE-instance
+677
+** CONSTRAINT: EQUATIONS NODES-zn-677-zp-13
+*EQUATION
+3
+NODE-zp13, 1, 1.0
+NODE-zn677, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp13, 2, 1.0
+NODE-zn677, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp13, 3, 1.0
+NODE-zn677, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp44, INSTANCE=RVE-instance
+44
+*NSET, NSET=NODE-zn770, INSTANCE=RVE-instance
+770
+** CONSTRAINT: EQUATIONS NODES-zn-770-zp-44
+*EQUATION
+3
+NODE-zp44, 1, 1.0
+NODE-zn770, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp44, 2, 1.0
+NODE-zn770, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp44, 3, 1.0
+NODE-zn770, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp135, INSTANCE=RVE-instance
+135
+*NSET, NSET=NODE-zn900, INSTANCE=RVE-instance
+900
+** CONSTRAINT: EQUATIONS NODES-zn-900-zp-135
+*EQUATION
+3
+NODE-zp135, 1, 1.0
+NODE-zn900, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp135, 2, 1.0
+NODE-zn900, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp135, 3, 1.0
+NODE-zn900, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp4, INSTANCE=RVE-instance
+4
+*NSET, NSET=NODE-zn588, INSTANCE=RVE-instance
+588
+** CONSTRAINT: EQUATIONS NODES-zn-588-zp-4
+*EQUATION
+3
+NODE-zp4, 1, 1.0
+NODE-zn588, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp4, 2, 1.0
+NODE-zn588, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp4, 3, 1.0
+NODE-zn588, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp112, INSTANCE=RVE-instance
+112
+*NSET, NSET=NODE-zn892, INSTANCE=RVE-instance
+892
+** CONSTRAINT: EQUATIONS NODES-zn-892-zp-112
+*EQUATION
+3
+NODE-zp112, 1, 1.0
+NODE-zn892, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp112, 2, 1.0
+NODE-zn892, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp112, 3, 1.0
+NODE-zn892, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp32, INSTANCE=RVE-instance
+32
+*NSET, NSET=NODE-zn760, INSTANCE=RVE-instance
+760
+** CONSTRAINT: EQUATIONS NODES-zn-760-zp-32
+*EQUATION
+3
+NODE-zp32, 1, 1.0
+NODE-zn760, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp32, 2, 1.0
+NODE-zn760, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp32, 3, 1.0
+NODE-zn760, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp83, INSTANCE=RVE-instance
+83
+*NSET, NSET=NODE-zn844, INSTANCE=RVE-instance
+844
+** CONSTRAINT: EQUATIONS NODES-zn-844-zp-83
+*EQUATION
+3
+NODE-zp83, 1, 1.0
+NODE-zn844, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp83, 2, 1.0
+NODE-zn844, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp83, 3, 1.0
+NODE-zn844, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp1, INSTANCE=RVE-instance
+1
+*NSET, NSET=NODE-zn500, INSTANCE=RVE-instance
+500
+** CONSTRAINT: EQUATIONS NODES-zn-500-zp-1
+*EQUATION
+3
+NODE-zp1, 1, 1.0
+NODE-zn500, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp1, 2, 1.0
+NODE-zn500, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp1, 3, 1.0
+NODE-zn500, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp126, INSTANCE=RVE-instance
+126
+*NSET, NSET=NODE-zn893, INSTANCE=RVE-instance
+893
+** CONSTRAINT: EQUATIONS NODES-zn-893-zp-126
+*EQUATION
+3
+NODE-zp126, 1, 1.0
+NODE-zn893, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp126, 2, 1.0
+NODE-zn893, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp126, 3, 1.0
+NODE-zn893, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp5, INSTANCE=RVE-instance
+5
+*NSET, NSET=NODE-zn590, INSTANCE=RVE-instance
+590
+** CONSTRAINT: EQUATIONS NODES-zn-590-zp-5
+*EQUATION
+3
+NODE-zp5, 1, 1.0
+NODE-zn590, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp5, 2, 1.0
+NODE-zn590, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp5, 3, 1.0
+NODE-zn590, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp65, INSTANCE=RVE-instance
+65
+*NSET, NSET=NODE-zn833, INSTANCE=RVE-instance
+833
+** CONSTRAINT: EQUATIONS NODES-zn-833-zp-65
+*EQUATION
+3
+NODE-zp65, 1, 1.0
+NODE-zn833, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp65, 2, 1.0
+NODE-zn833, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp65, 3, 1.0
+NODE-zn833, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp77, INSTANCE=RVE-instance
+77
+*NSET, NSET=NODE-zn834, INSTANCE=RVE-instance
+834
+** CONSTRAINT: EQUATIONS NODES-zn-834-zp-77
+*EQUATION
+3
+NODE-zp77, 1, 1.0
+NODE-zn834, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp77, 2, 1.0
+NODE-zn834, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp77, 3, 1.0
+NODE-zn834, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-zp20, INSTANCE=RVE-instance
+20
+*NSET, NSET=NODE-zn679, INSTANCE=RVE-instance
+679
+** CONSTRAINT: EQUATIONS NODES-zn-679-zp-20
+*EQUATION
+3
+NODE-zp20, 1, 1.0
+NODE-zn679, 1, -1.0
+RP1, 1, -1.0
+*EQUATION
+3
+NODE-zp20, 2, 1.0
+NODE-zn679, 2, -1.0
+RP1, 2, -1.0
+*EQUATION
+3
+NODE-zp20, 3, 1.0
+NODE-zn679, 3, -1.0
+RP1, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp635, INSTANCE=RVE-instance
+635
+*NSET, NSET=NODE-yn1017, INSTANCE=RVE-instance
+1017
+** CONSTRAINT: EQUATIONS NODES-yn-1017-yp-635
+*EQUATION
+3
+NODE-yp635, 1, 1.0
+NODE-yn1017, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp635, 2, 1.0
+NODE-yn1017, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp635, 3, 1.0
+NODE-yn1017, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp544, INSTANCE=RVE-instance
+544
+*NSET, NSET=NODE-yn1007, INSTANCE=RVE-instance
+1007
+** CONSTRAINT: EQUATIONS NODES-yn-1007-yp-544
+*EQUATION
+3
+NODE-yp544, 1, 1.0
+NODE-yn1007, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp544, 2, 1.0
+NODE-yn1007, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp544, 3, 1.0
+NODE-yn1007, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp453, INSTANCE=RVE-instance
+453
+*NSET, NSET=NODE-yn990, INSTANCE=RVE-instance
+990
+** CONSTRAINT: EQUATIONS NODES-yn-990-yp-453
+*EQUATION
+3
+NODE-yp453, 1, 1.0
+NODE-yn990, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp453, 2, 1.0
+NODE-yn990, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp453, 3, 1.0
+NODE-yn990, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp365, INSTANCE=RVE-instance
+365
+*NSET, NSET=NODE-yn962, INSTANCE=RVE-instance
+962
+** CONSTRAINT: EQUATIONS NODES-yn-962-yp-365
+*EQUATION
+3
+NODE-yp365, 1, 1.0
+NODE-yn962, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp365, 2, 1.0
+NODE-yn962, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp365, 3, 1.0
+NODE-yn962, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp283, INSTANCE=RVE-instance
+283
+*NSET, NSET=NODE-yn923, INSTANCE=RVE-instance
+923
+** CONSTRAINT: EQUATIONS NODES-yn-923-yp-283
+*EQUATION
+3
+NODE-yp283, 1, 1.0
+NODE-yn923, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp283, 2, 1.0
+NODE-yn923, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp283, 3, 1.0
+NODE-yn923, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp209, INSTANCE=RVE-instance
+209
+*NSET, NSET=NODE-yn873, INSTANCE=RVE-instance
+873
+** CONSTRAINT: EQUATIONS NODES-yn-873-yp-209
+*EQUATION
+3
+NODE-yp209, 1, 1.0
+NODE-yn873, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp209, 2, 1.0
+NODE-yn873, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp209, 3, 1.0
+NODE-yn873, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp146, INSTANCE=RVE-instance
+146
+*NSET, NSET=NODE-yn809, INSTANCE=RVE-instance
+809
+** CONSTRAINT: EQUATIONS NODES-yn-809-yp-146
+*EQUATION
+3
+NODE-yp146, 1, 1.0
+NODE-yn809, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp146, 2, 1.0
+NODE-yn809, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp146, 3, 1.0
+NODE-yn809, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp93, INSTANCE=RVE-instance
+93
+*NSET, NSET=NODE-yn732, INSTANCE=RVE-instance
+732
+** CONSTRAINT: EQUATIONS NODES-yn-732-yp-93
+*EQUATION
+3
+NODE-yp93, 1, 1.0
+NODE-yn732, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp93, 2, 1.0
+NODE-yn732, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp93, 3, 1.0
+NODE-yn732, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp52, INSTANCE=RVE-instance
+52
+*NSET, NSET=NODE-yn646, INSTANCE=RVE-instance
+646
+** CONSTRAINT: EQUATIONS NODES-yn-646-yp-52
+*EQUATION
+3
+NODE-yp52, 1, 1.0
+NODE-yn646, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp52, 2, 1.0
+NODE-yn646, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp52, 3, 1.0
+NODE-yn646, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp718, INSTANCE=RVE-instance
+718
+*NSET, NSET=NODE-yn1010, INSTANCE=RVE-instance
+1010
+** CONSTRAINT: EQUATIONS NODES-yn-1010-yp-718
+*EQUATION
+3
+NODE-yp718, 1, 1.0
+NODE-yn1010, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp718, 2, 1.0
+NODE-yn1010, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp718, 3, 1.0
+NODE-yn1010, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp632, INSTANCE=RVE-instance
+632
+*NSET, NSET=NODE-yn993, INSTANCE=RVE-instance
+993
+** CONSTRAINT: EQUATIONS NODES-yn-993-yp-632
+*EQUATION
+3
+NODE-yp632, 1, 1.0
+NODE-yn993, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp632, 2, 1.0
+NODE-yn993, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp632, 3, 1.0
+NODE-yn993, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp541, INSTANCE=RVE-instance
+541
+*NSET, NSET=NODE-yn965, INSTANCE=RVE-instance
+965
+** CONSTRAINT: EQUATIONS NODES-yn-965-yp-541
+*EQUATION
+3
+NODE-yp541, 1, 1.0
+NODE-yn965, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp541, 2, 1.0
+NODE-yn965, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp541, 3, 1.0
+NODE-yn965, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp450, INSTANCE=RVE-instance
+450
+*NSET, NSET=NODE-yn926, INSTANCE=RVE-instance
+926
+** CONSTRAINT: EQUATIONS NODES-yn-926-yp-450
+*EQUATION
+3
+NODE-yp450, 1, 1.0
+NODE-yn926, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp450, 2, 1.0
+NODE-yn926, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp450, 3, 1.0
+NODE-yn926, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp362, INSTANCE=RVE-instance
+362
+*NSET, NSET=NODE-yn876, INSTANCE=RVE-instance
+876
+** CONSTRAINT: EQUATIONS NODES-yn-876-yp-362
+*EQUATION
+3
+NODE-yp362, 1, 1.0
+NODE-yn876, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp362, 2, 1.0
+NODE-yn876, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp362, 3, 1.0
+NODE-yn876, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp280, INSTANCE=RVE-instance
+280
+*NSET, NSET=NODE-yn812, INSTANCE=RVE-instance
+812
+** CONSTRAINT: EQUATIONS NODES-yn-812-yp-280
+*EQUATION
+3
+NODE-yp280, 1, 1.0
+NODE-yn812, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp280, 2, 1.0
+NODE-yn812, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp280, 3, 1.0
+NODE-yn812, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp206, INSTANCE=RVE-instance
+206
+*NSET, NSET=NODE-yn735, INSTANCE=RVE-instance
+735
+** CONSTRAINT: EQUATIONS NODES-yn-735-yp-206
+*EQUATION
+3
+NODE-yp206, 1, 1.0
+NODE-yn735, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp206, 2, 1.0
+NODE-yn735, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp206, 3, 1.0
+NODE-yn735, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp144, INSTANCE=RVE-instance
+144
+*NSET, NSET=NODE-yn649, INSTANCE=RVE-instance
+649
+** CONSTRAINT: EQUATIONS NODES-yn-649-yp-144
+*EQUATION
+3
+NODE-yp144, 1, 1.0
+NODE-yn649, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp144, 2, 1.0
+NODE-yn649, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp144, 3, 1.0
+NODE-yn649, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp91, INSTANCE=RVE-instance
+91
+*NSET, NSET=NODE-yn558, INSTANCE=RVE-instance
+558
+** CONSTRAINT: EQUATIONS NODES-yn-558-yp-91
+*EQUATION
+3
+NODE-yp91, 1, 1.0
+NODE-yn558, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp91, 2, 1.0
+NODE-yn558, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp91, 3, 1.0
+NODE-yn558, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp633, INSTANCE=RVE-instance
+633
+*NSET, NSET=NODE-yn1000, INSTANCE=RVE-instance
+1000
+** CONSTRAINT: EQUATIONS NODES-yn-1000-yp-633
+*EQUATION
+3
+NODE-yp633, 1, 1.0
+NODE-yn1000, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp633, 2, 1.0
+NODE-yn1000, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp633, 3, 1.0
+NODE-yn1000, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp542, INSTANCE=RVE-instance
+542
+*NSET, NSET=NODE-yn979, INSTANCE=RVE-instance
+979
+** CONSTRAINT: EQUATIONS NODES-yn-979-yp-542
+*EQUATION
+3
+NODE-yp542, 1, 1.0
+NODE-yn979, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp542, 2, 1.0
+NODE-yn979, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp542, 3, 1.0
+NODE-yn979, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp451, INSTANCE=RVE-instance
+451
+*NSET, NSET=NODE-yn947, INSTANCE=RVE-instance
+947
+** CONSTRAINT: EQUATIONS NODES-yn-947-yp-451
+*EQUATION
+3
+NODE-yp451, 1, 1.0
+NODE-yn947, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp451, 2, 1.0
+NODE-yn947, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp451, 3, 1.0
+NODE-yn947, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp363, INSTANCE=RVE-instance
+363
+*NSET, NSET=NODE-yn906, INSTANCE=RVE-instance
+906
+** CONSTRAINT: EQUATIONS NODES-yn-906-yp-363
+*EQUATION
+3
+NODE-yp363, 1, 1.0
+NODE-yn906, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp363, 2, 1.0
+NODE-yn906, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp363, 3, 1.0
+NODE-yn906, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp281, INSTANCE=RVE-instance
+281
+*NSET, NSET=NODE-yn852, INSTANCE=RVE-instance
+852
+** CONSTRAINT: EQUATIONS NODES-yn-852-yp-281
+*EQUATION
+3
+NODE-yp281, 1, 1.0
+NODE-yn852, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp281, 2, 1.0
+NODE-yn852, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp281, 3, 1.0
+NODE-yn852, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp207, INSTANCE=RVE-instance
+207
+*NSET, NSET=NODE-yn783, INSTANCE=RVE-instance
+783
+** CONSTRAINT: EQUATIONS NODES-yn-783-yp-207
+*EQUATION
+3
+NODE-yp207, 1, 1.0
+NODE-yn783, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp207, 2, 1.0
+NODE-yn783, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp207, 3, 1.0
+NODE-yn783, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp145, INSTANCE=RVE-instance
+145
+*NSET, NSET=NODE-yn703, INSTANCE=RVE-instance
+703
+** CONSTRAINT: EQUATIONS NODES-yn-703-yp-145
+*EQUATION
+3
+NODE-yp145, 1, 1.0
+NODE-yn703, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp145, 2, 1.0
+NODE-yn703, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp145, 3, 1.0
+NODE-yn703, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp92, INSTANCE=RVE-instance
+92
+*NSET, NSET=NODE-yn616, INSTANCE=RVE-instance
+616
+** CONSTRAINT: EQUATIONS NODES-yn-616-yp-92
+*EQUATION
+3
+NODE-yp92, 1, 1.0
+NODE-yn616, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp92, 2, 1.0
+NODE-yn616, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp92, 3, 1.0
+NODE-yn616, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp51, INSTANCE=RVE-instance
+51
+*NSET, NSET=NODE-yn526, INSTANCE=RVE-instance
+526
+** CONSTRAINT: EQUATIONS NODES-yn-526-yp-51
+*EQUATION
+3
+NODE-yp51, 1, 1.0
+NODE-yn526, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp51, 2, 1.0
+NODE-yn526, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp51, 3, 1.0
+NODE-yn526, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp629, INSTANCE=RVE-instance
+629
+*NSET, NSET=NODE-yn978, INSTANCE=RVE-instance
+978
+** CONSTRAINT: EQUATIONS NODES-yn-978-yp-629
+*EQUATION
+3
+NODE-yp629, 1, 1.0
+NODE-yn978, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp629, 2, 1.0
+NODE-yn978, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp629, 3, 1.0
+NODE-yn978, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp538, INSTANCE=RVE-instance
+538
+*NSET, NSET=NODE-yn946, INSTANCE=RVE-instance
+946
+** CONSTRAINT: EQUATIONS NODES-yn-946-yp-538
+*EQUATION
+3
+NODE-yp538, 1, 1.0
+NODE-yn946, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp538, 2, 1.0
+NODE-yn946, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp538, 3, 1.0
+NODE-yn946, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp447, INSTANCE=RVE-instance
+447
+*NSET, NSET=NODE-yn905, INSTANCE=RVE-instance
+905
+** CONSTRAINT: EQUATIONS NODES-yn-905-yp-447
+*EQUATION
+3
+NODE-yp447, 1, 1.0
+NODE-yn905, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp447, 2, 1.0
+NODE-yn905, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp447, 3, 1.0
+NODE-yn905, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp359, INSTANCE=RVE-instance
+359
+*NSET, NSET=NODE-yn851, INSTANCE=RVE-instance
+851
+** CONSTRAINT: EQUATIONS NODES-yn-851-yp-359
+*EQUATION
+3
+NODE-yp359, 1, 1.0
+NODE-yn851, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp359, 2, 1.0
+NODE-yn851, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp359, 3, 1.0
+NODE-yn851, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp277, INSTANCE=RVE-instance
+277
+*NSET, NSET=NODE-yn782, INSTANCE=RVE-instance
+782
+** CONSTRAINT: EQUATIONS NODES-yn-782-yp-277
+*EQUATION
+3
+NODE-yp277, 1, 1.0
+NODE-yn782, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp277, 2, 1.0
+NODE-yn782, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp277, 3, 1.0
+NODE-yn782, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp203, INSTANCE=RVE-instance
+203
+*NSET, NSET=NODE-yn702, INSTANCE=RVE-instance
+702
+** CONSTRAINT: EQUATIONS NODES-yn-702-yp-203
+*EQUATION
+3
+NODE-yp203, 1, 1.0
+NODE-yn702, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp203, 2, 1.0
+NODE-yn702, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp203, 3, 1.0
+NODE-yn702, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp141, INSTANCE=RVE-instance
+141
+*NSET, NSET=NODE-yn615, INSTANCE=RVE-instance
+615
+** CONSTRAINT: EQUATIONS NODES-yn-615-yp-141
+*EQUATION
+3
+NODE-yp141, 1, 1.0
+NODE-yn615, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp141, 2, 1.0
+NODE-yn615, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp141, 3, 1.0
+NODE-yn615, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp88, INSTANCE=RVE-instance
+88
+*NSET, NSET=NODE-yn525, INSTANCE=RVE-instance
+525
+** CONSTRAINT: EQUATIONS NODES-yn-525-yp-88
+*EQUATION
+3
+NODE-yp88, 1, 1.0
+NODE-yn525, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp88, 2, 1.0
+NODE-yn525, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp88, 3, 1.0
+NODE-yn525, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp48, INSTANCE=RVE-instance
+48
+*NSET, NSET=NODE-yn435, INSTANCE=RVE-instance
+435
+** CONSTRAINT: EQUATIONS NODES-yn-435-yp-48
+*EQUATION
+3
+NODE-yp48, 1, 1.0
+NODE-yn435, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp48, 2, 1.0
+NODE-yn435, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp48, 3, 1.0
+NODE-yn435, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp537, INSTANCE=RVE-instance
+537
+*NSET, NSET=NODE-yn945, INSTANCE=RVE-instance
+945
+** CONSTRAINT: EQUATIONS NODES-yn-945-yp-537
+*EQUATION
+3
+NODE-yp537, 1, 1.0
+NODE-yn945, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp537, 2, 1.0
+NODE-yn945, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp537, 3, 1.0
+NODE-yn945, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp446, INSTANCE=RVE-instance
+446
+*NSET, NSET=NODE-yn904, INSTANCE=RVE-instance
+904
+** CONSTRAINT: EQUATIONS NODES-yn-904-yp-446
+*EQUATION
+3
+NODE-yp446, 1, 1.0
+NODE-yn904, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp446, 2, 1.0
+NODE-yn904, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp446, 3, 1.0
+NODE-yn904, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp358, INSTANCE=RVE-instance
+358
+*NSET, NSET=NODE-yn850, INSTANCE=RVE-instance
+850
+** CONSTRAINT: EQUATIONS NODES-yn-850-yp-358
+*EQUATION
+3
+NODE-yp358, 1, 1.0
+NODE-yn850, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp358, 2, 1.0
+NODE-yn850, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp358, 3, 1.0
+NODE-yn850, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp276, INSTANCE=RVE-instance
+276
+*NSET, NSET=NODE-yn781, INSTANCE=RVE-instance
+781
+** CONSTRAINT: EQUATIONS NODES-yn-781-yp-276
+*EQUATION
+3
+NODE-yp276, 1, 1.0
+NODE-yn781, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp276, 2, 1.0
+NODE-yn781, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp276, 3, 1.0
+NODE-yn781, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp202, INSTANCE=RVE-instance
+202
+*NSET, NSET=NODE-yn701, INSTANCE=RVE-instance
+701
+** CONSTRAINT: EQUATIONS NODES-yn-701-yp-202
+*EQUATION
+3
+NODE-yp202, 1, 1.0
+NODE-yn701, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp202, 2, 1.0
+NODE-yn701, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp202, 3, 1.0
+NODE-yn701, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp140, INSTANCE=RVE-instance
+140
+*NSET, NSET=NODE-yn614, INSTANCE=RVE-instance
+614
+** CONSTRAINT: EQUATIONS NODES-yn-614-yp-140
+*EQUATION
+3
+NODE-yp140, 1, 1.0
+NODE-yn614, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp140, 2, 1.0
+NODE-yn614, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp140, 3, 1.0
+NODE-yn614, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp87, INSTANCE=RVE-instance
+87
+*NSET, NSET=NODE-yn524, INSTANCE=RVE-instance
+524
+** CONSTRAINT: EQUATIONS NODES-yn-524-yp-87
+*EQUATION
+3
+NODE-yp87, 1, 1.0
+NODE-yn524, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp87, 2, 1.0
+NODE-yn524, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp87, 3, 1.0
+NODE-yn524, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp47, INSTANCE=RVE-instance
+47
+*NSET, NSET=NODE-yn434, INSTANCE=RVE-instance
+434
+** CONSTRAINT: EQUATIONS NODES-yn-434-yp-47
+*EQUATION
+3
+NODE-yp47, 1, 1.0
+NODE-yn434, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp47, 2, 1.0
+NODE-yn434, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp47, 3, 1.0
+NODE-yn434, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp22, INSTANCE=RVE-instance
+22
+*NSET, NSET=NODE-yn348, INSTANCE=RVE-instance
+348
+** CONSTRAINT: EQUATIONS NODES-yn-348-yp-22
+*EQUATION
+3
+NODE-yp22, 1, 1.0
+NODE-yn348, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp22, 2, 1.0
+NODE-yn348, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp22, 3, 1.0
+NODE-yn348, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp566, INSTANCE=RVE-instance
+566
+*NSET, NSET=NODE-yn902, INSTANCE=RVE-instance
+902
+** CONSTRAINT: EQUATIONS NODES-yn-902-yp-566
+*EQUATION
+3
+NODE-yp566, 1, 1.0
+NODE-yn902, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp566, 2, 1.0
+NODE-yn902, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp566, 3, 1.0
+NODE-yn902, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp474, INSTANCE=RVE-instance
+474
+*NSET, NSET=NODE-yn848, INSTANCE=RVE-instance
+848
+** CONSTRAINT: EQUATIONS NODES-yn-848-yp-474
+*EQUATION
+3
+NODE-yp474, 1, 1.0
+NODE-yn848, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp474, 2, 1.0
+NODE-yn848, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp474, 3, 1.0
+NODE-yn848, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp384, INSTANCE=RVE-instance
+384
+*NSET, NSET=NODE-yn779, INSTANCE=RVE-instance
+779
+** CONSTRAINT: EQUATIONS NODES-yn-779-yp-384
+*EQUATION
+3
+NODE-yp384, 1, 1.0
+NODE-yn779, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp384, 2, 1.0
+NODE-yn779, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp384, 3, 1.0
+NODE-yn779, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp299, INSTANCE=RVE-instance
+299
+*NSET, NSET=NODE-yn699, INSTANCE=RVE-instance
+699
+** CONSTRAINT: EQUATIONS NODES-yn-699-yp-299
+*EQUATION
+3
+NODE-yp299, 1, 1.0
+NODE-yn699, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp299, 2, 1.0
+NODE-yn699, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp299, 3, 1.0
+NODE-yn699, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp222, INSTANCE=RVE-instance
+222
+*NSET, NSET=NODE-yn612, INSTANCE=RVE-instance
+612
+** CONSTRAINT: EQUATIONS NODES-yn-612-yp-222
+*EQUATION
+3
+NODE-yp222, 1, 1.0
+NODE-yn612, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp222, 2, 1.0
+NODE-yn612, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp222, 3, 1.0
+NODE-yn612, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp156, INSTANCE=RVE-instance
+156
+*NSET, NSET=NODE-yn522, INSTANCE=RVE-instance
+522
+** CONSTRAINT: EQUATIONS NODES-yn-522-yp-156
+*EQUATION
+3
+NODE-yp156, 1, 1.0
+NODE-yn522, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp156, 2, 1.0
+NODE-yn522, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp156, 3, 1.0
+NODE-yn522, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp101, INSTANCE=RVE-instance
+101
+*NSET, NSET=NODE-yn432, INSTANCE=RVE-instance
+432
+** CONSTRAINT: EQUATIONS NODES-yn-432-yp-101
+*EQUATION
+3
+NODE-yp101, 1, 1.0
+NODE-yn432, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp101, 2, 1.0
+NODE-yn432, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp101, 3, 1.0
+NODE-yn432, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp57, INSTANCE=RVE-instance
+57
+*NSET, NSET=NODE-yn346, INSTANCE=RVE-instance
+346
+** CONSTRAINT: EQUATIONS NODES-yn-346-yp-57
+*EQUATION
+3
+NODE-yp57, 1, 1.0
+NODE-yn346, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp57, 2, 1.0
+NODE-yn346, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp57, 3, 1.0
+NODE-yn346, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp27, INSTANCE=RVE-instance
+27
+*NSET, NSET=NODE-yn267, INSTANCE=RVE-instance
+267
+** CONSTRAINT: EQUATIONS NODES-yn-267-yp-27
+*EQUATION
+3
+NODE-yp27, 1, 1.0
+NODE-yn267, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp27, 2, 1.0
+NODE-yn267, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp27, 3, 1.0
+NODE-yn267, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp475, INSTANCE=RVE-instance
+475
+*NSET, NSET=NODE-yn847, INSTANCE=RVE-instance
+847
+** CONSTRAINT: EQUATIONS NODES-yn-847-yp-475
+*EQUATION
+3
+NODE-yp475, 1, 1.0
+NODE-yn847, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp475, 2, 1.0
+NODE-yn847, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp475, 3, 1.0
+NODE-yn847, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp385, INSTANCE=RVE-instance
+385
+*NSET, NSET=NODE-yn778, INSTANCE=RVE-instance
+778
+** CONSTRAINT: EQUATIONS NODES-yn-778-yp-385
+*EQUATION
+3
+NODE-yp385, 1, 1.0
+NODE-yn778, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp385, 2, 1.0
+NODE-yn778, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp385, 3, 1.0
+NODE-yn778, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp300, INSTANCE=RVE-instance
+300
+*NSET, NSET=NODE-yn698, INSTANCE=RVE-instance
+698
+** CONSTRAINT: EQUATIONS NODES-yn-698-yp-300
+*EQUATION
+3
+NODE-yp300, 1, 1.0
+NODE-yn698, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp300, 2, 1.0
+NODE-yn698, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp300, 3, 1.0
+NODE-yn698, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp223, INSTANCE=RVE-instance
+223
+*NSET, NSET=NODE-yn611, INSTANCE=RVE-instance
+611
+** CONSTRAINT: EQUATIONS NODES-yn-611-yp-223
+*EQUATION
+3
+NODE-yp223, 1, 1.0
+NODE-yn611, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp223, 2, 1.0
+NODE-yn611, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp223, 3, 1.0
+NODE-yn611, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp157, INSTANCE=RVE-instance
+157
+*NSET, NSET=NODE-yn521, INSTANCE=RVE-instance
+521
+** CONSTRAINT: EQUATIONS NODES-yn-521-yp-157
+*EQUATION
+3
+NODE-yp157, 1, 1.0
+NODE-yn521, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp157, 2, 1.0
+NODE-yn521, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp157, 3, 1.0
+NODE-yn521, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp102, INSTANCE=RVE-instance
+102
+*NSET, NSET=NODE-yn431, INSTANCE=RVE-instance
+431
+** CONSTRAINT: EQUATIONS NODES-yn-431-yp-102
+*EQUATION
+3
+NODE-yp102, 1, 1.0
+NODE-yn431, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp102, 2, 1.0
+NODE-yn431, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp102, 3, 1.0
+NODE-yn431, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp58, INSTANCE=RVE-instance
+58
+*NSET, NSET=NODE-yn345, INSTANCE=RVE-instance
+345
+** CONSTRAINT: EQUATIONS NODES-yn-345-yp-58
+*EQUATION
+3
+NODE-yp58, 1, 1.0
+NODE-yn345, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp58, 2, 1.0
+NODE-yn345, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp58, 3, 1.0
+NODE-yn345, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp28, INSTANCE=RVE-instance
+28
+*NSET, NSET=NODE-yn266, INSTANCE=RVE-instance
+266
+** CONSTRAINT: EQUATIONS NODES-yn-266-yp-28
+*EQUATION
+3
+NODE-yp28, 1, 1.0
+NODE-yn266, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp28, 2, 1.0
+NODE-yn266, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp28, 3, 1.0
+NODE-yn266, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-yp11, INSTANCE=RVE-instance
+11
+*NSET, NSET=NODE-yn196, INSTANCE=RVE-instance
+196
+** CONSTRAINT: EQUATIONS NODES-yn-196-yp-11
+*EQUATION
+3
+NODE-yp11, 1, 1.0
+NODE-yn196, 1, -1.0
+RP3, 1, -1.0
+*EQUATION
+3
+NODE-yp11, 2, 1.0
+NODE-yn196, 2, -1.0
+RP3, 2, -1.0
+*EQUATION
+3
+NODE-yp11, 3, 1.0
+NODE-yn196, 3, -1.0
+RP3, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp694, INSTANCE=RVE-instance
+694
+*NSET, NSET=NODE-xn1015, INSTANCE=RVE-instance
+1015
+** CONSTRAINT: EQUATIONS NODES-xn-1015-xp-694
+*EQUATION
+3
+NODE-xp694, 1, 1.0
+NODE-xn1015, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp694, 2, 1.0
+NODE-xn1015, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp694, 3, 1.0
+NODE-xn1015, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp607, INSTANCE=RVE-instance
+607
+*NSET, NSET=NODE-xn1003, INSTANCE=RVE-instance
+1003
+** CONSTRAINT: EQUATIONS NODES-xn-1003-xp-607
+*EQUATION
+3
+NODE-xp607, 1, 1.0
+NODE-xn1003, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp607, 2, 1.0
+NODE-xn1003, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp607, 3, 1.0
+NODE-xn1003, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp517, INSTANCE=RVE-instance
+517
+*NSET, NSET=NODE-xn982, INSTANCE=RVE-instance
+982
+** CONSTRAINT: EQUATIONS NODES-xn-982-xp-517
+*EQUATION
+3
+NODE-xp517, 1, 1.0
+NODE-xn982, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp517, 2, 1.0
+NODE-xn982, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp517, 3, 1.0
+NODE-xn982, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp427, INSTANCE=RVE-instance
+427
+*NSET, NSET=NODE-xn950, INSTANCE=RVE-instance
+950
+** CONSTRAINT: EQUATIONS NODES-xn-950-xp-427
+*EQUATION
+3
+NODE-xp427, 1, 1.0
+NODE-xn950, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp427, 2, 1.0
+NODE-xn950, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp427, 3, 1.0
+NODE-xn950, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp341, INSTANCE=RVE-instance
+341
+*NSET, NSET=NODE-xn909, INSTANCE=RVE-instance
+909
+** CONSTRAINT: EQUATIONS NODES-xn-909-xp-341
+*EQUATION
+3
+NODE-xp341, 1, 1.0
+NODE-xn909, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp341, 2, 1.0
+NODE-xn909, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp341, 3, 1.0
+NODE-xn909, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp262, INSTANCE=RVE-instance
+262
+*NSET, NSET=NODE-xn855, INSTANCE=RVE-instance
+855
+** CONSTRAINT: EQUATIONS NODES-xn-855-xp-262
+*EQUATION
+3
+NODE-xp262, 1, 1.0
+NODE-xn855, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp262, 2, 1.0
+NODE-xn855, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp262, 3, 1.0
+NODE-xn855, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp192, INSTANCE=RVE-instance
+192
+*NSET, NSET=NODE-xn786, INSTANCE=RVE-instance
+786
+** CONSTRAINT: EQUATIONS NODES-xn-786-xp-192
+*EQUATION
+3
+NODE-xp192, 1, 1.0
+NODE-xn786, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp192, 2, 1.0
+NODE-xn786, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp192, 3, 1.0
+NODE-xn786, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp132, INSTANCE=RVE-instance
+132
+*NSET, NSET=NODE-xn706, INSTANCE=RVE-instance
+706
+** CONSTRAINT: EQUATIONS NODES-xn-706-xp-132
+*EQUATION
+3
+NODE-xp132, 1, 1.0
+NODE-xn706, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp132, 2, 1.0
+NODE-xn706, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp132, 3, 1.0
+NODE-xn706, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp82, INSTANCE=RVE-instance
+82
+*NSET, NSET=NODE-xn619, INSTANCE=RVE-instance
+619
+** CONSTRAINT: EQUATIONS NODES-xn-619-xp-82
+*EQUATION
+3
+NODE-xp82, 1, 1.0
+NODE-xn619, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp82, 2, 1.0
+NODE-xn619, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp82, 3, 1.0
+NODE-xn619, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp764, INSTANCE=RVE-instance
+764
+*NSET, NSET=NODE-xn1004, INSTANCE=RVE-instance
+1004
+** CONSTRAINT: EQUATIONS NODES-xn-1004-xp-764
+*EQUATION
+3
+NODE-xp764, 1, 1.0
+NODE-xn1004, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp764, 2, 1.0
+NODE-xn1004, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp764, 3, 1.0
+NODE-xn1004, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp684, INSTANCE=RVE-instance
+684
+*NSET, NSET=NODE-xn983, INSTANCE=RVE-instance
+983
+** CONSTRAINT: EQUATIONS NODES-xn-983-xp-684
+*EQUATION
+3
+NODE-xp684, 1, 1.0
+NODE-xn983, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp684, 2, 1.0
+NODE-xn983, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp684, 3, 1.0
+NODE-xn983, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp597, INSTANCE=RVE-instance
+597
+*NSET, NSET=NODE-xn951, INSTANCE=RVE-instance
+951
+** CONSTRAINT: EQUATIONS NODES-xn-951-xp-597
+*EQUATION
+3
+NODE-xp597, 1, 1.0
+NODE-xn951, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp597, 2, 1.0
+NODE-xn951, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp597, 3, 1.0
+NODE-xn951, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp507, INSTANCE=RVE-instance
+507
+*NSET, NSET=NODE-xn910, INSTANCE=RVE-instance
+910
+** CONSTRAINT: EQUATIONS NODES-xn-910-xp-507
+*EQUATION
+3
+NODE-xp507, 1, 1.0
+NODE-xn910, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp507, 2, 1.0
+NODE-xn910, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp507, 3, 1.0
+NODE-xn910, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp417, INSTANCE=RVE-instance
+417
+*NSET, NSET=NODE-xn856, INSTANCE=RVE-instance
+856
+** CONSTRAINT: EQUATIONS NODES-xn-856-xp-417
+*EQUATION
+3
+NODE-xp417, 1, 1.0
+NODE-xn856, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp417, 2, 1.0
+NODE-xn856, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp417, 3, 1.0
+NODE-xn856, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp332, INSTANCE=RVE-instance
+332
+*NSET, NSET=NODE-xn787, INSTANCE=RVE-instance
+787
+** CONSTRAINT: EQUATIONS NODES-xn-787-xp-332
+*EQUATION
+3
+NODE-xp332, 1, 1.0
+NODE-xn787, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp332, 2, 1.0
+NODE-xn787, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp332, 3, 1.0
+NODE-xn787, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp254, INSTANCE=RVE-instance
+254
+*NSET, NSET=NODE-xn707, INSTANCE=RVE-instance
+707
+** CONSTRAINT: EQUATIONS NODES-xn-707-xp-254
+*EQUATION
+3
+NODE-xp254, 1, 1.0
+NODE-xn707, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp254, 2, 1.0
+NODE-xn707, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp254, 3, 1.0
+NODE-xn707, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp186, INSTANCE=RVE-instance
+186
+*NSET, NSET=NODE-xn620, INSTANCE=RVE-instance
+620
+** CONSTRAINT: EQUATIONS NODES-xn-620-xp-186
+*EQUATION
+3
+NODE-xp186, 1, 1.0
+NODE-xn620, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp186, 2, 1.0
+NODE-xn620, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp186, 3, 1.0
+NODE-xn620, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp127, INSTANCE=RVE-instance
+127
+*NSET, NSET=NODE-xn529, INSTANCE=RVE-instance
+529
+** CONSTRAINT: EQUATIONS NODES-xn-529-xp-127
+*EQUATION
+3
+NODE-xp127, 1, 1.0
+NODE-xn529, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp127, 2, 1.0
+NODE-xn529, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp127, 3, 1.0
+NODE-xn529, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp685, INSTANCE=RVE-instance
+685
+*NSET, NSET=NODE-xn988, INSTANCE=RVE-instance
+988
+** CONSTRAINT: EQUATIONS NODES-xn-988-xp-685
+*EQUATION
+3
+NODE-xp685, 1, 1.0
+NODE-xn988, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp685, 2, 1.0
+NODE-xn988, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp685, 3, 1.0
+NODE-xn988, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp598, INSTANCE=RVE-instance
+598
+*NSET, NSET=NODE-xn960, INSTANCE=RVE-instance
+960
+** CONSTRAINT: EQUATIONS NODES-xn-960-xp-598
+*EQUATION
+3
+NODE-xp598, 1, 1.0
+NODE-xn960, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp598, 2, 1.0
+NODE-xn960, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp598, 3, 1.0
+NODE-xn960, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp508, INSTANCE=RVE-instance
+508
+*NSET, NSET=NODE-xn921, INSTANCE=RVE-instance
+921
+** CONSTRAINT: EQUATIONS NODES-xn-921-xp-508
+*EQUATION
+3
+NODE-xp508, 1, 1.0
+NODE-xn921, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp508, 2, 1.0
+NODE-xn921, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp508, 3, 1.0
+NODE-xn921, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp418, INSTANCE=RVE-instance
+418
+*NSET, NSET=NODE-xn871, INSTANCE=RVE-instance
+871
+** CONSTRAINT: EQUATIONS NODES-xn-871-xp-418
+*EQUATION
+3
+NODE-xp418, 1, 1.0
+NODE-xn871, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp418, 2, 1.0
+NODE-xn871, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp418, 3, 1.0
+NODE-xn871, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp333, INSTANCE=RVE-instance
+333
+*NSET, NSET=NODE-xn807, INSTANCE=RVE-instance
+807
+** CONSTRAINT: EQUATIONS NODES-xn-807-xp-333
+*EQUATION
+3
+NODE-xp333, 1, 1.0
+NODE-xn807, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp333, 2, 1.0
+NODE-xn807, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp333, 3, 1.0
+NODE-xn807, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp255, INSTANCE=RVE-instance
+255
+*NSET, NSET=NODE-xn730, INSTANCE=RVE-instance
+730
+** CONSTRAINT: EQUATIONS NODES-xn-730-xp-255
+*EQUATION
+3
+NODE-xp255, 1, 1.0
+NODE-xn730, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp255, 2, 1.0
+NODE-xn730, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp255, 3, 1.0
+NODE-xn730, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp187, INSTANCE=RVE-instance
+187
+*NSET, NSET=NODE-xn644, INSTANCE=RVE-instance
+644
+** CONSTRAINT: EQUATIONS NODES-xn-644-xp-187
+*EQUATION
+3
+NODE-xp187, 1, 1.0
+NODE-xn644, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp187, 2, 1.0
+NODE-xn644, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp187, 3, 1.0
+NODE-xn644, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp128, INSTANCE=RVE-instance
+128
+*NSET, NSET=NODE-xn553, INSTANCE=RVE-instance
+553
+** CONSTRAINT: EQUATIONS NODES-xn-553-xp-128
+*EQUATION
+3
+NODE-xp128, 1, 1.0
+NODE-xn553, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp128, 2, 1.0
+NODE-xn553, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp128, 3, 1.0
+NODE-xn553, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp79, INSTANCE=RVE-instance
+79
+*NSET, NSET=NODE-xn462, INSTANCE=RVE-instance
+462
+** CONSTRAINT: EQUATIONS NODES-xn-462-xp-79
+*EQUATION
+3
+NODE-xp79, 1, 1.0
+NODE-xn462, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp79, 2, 1.0
+NODE-xn462, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp79, 3, 1.0
+NODE-xn462, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp681, INSTANCE=RVE-instance
+681
+*NSET, NSET=NODE-xn959, INSTANCE=RVE-instance
+959
+** CONSTRAINT: EQUATIONS NODES-xn-959-xp-681
+*EQUATION
+3
+NODE-xp681, 1, 1.0
+NODE-xn959, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp681, 2, 1.0
+NODE-xn959, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp681, 3, 1.0
+NODE-xn959, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp594, INSTANCE=RVE-instance
+594
+*NSET, NSET=NODE-xn920, INSTANCE=RVE-instance
+920
+** CONSTRAINT: EQUATIONS NODES-xn-920-xp-594
+*EQUATION
+3
+NODE-xp594, 1, 1.0
+NODE-xn920, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp594, 2, 1.0
+NODE-xn920, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp594, 3, 1.0
+NODE-xn920, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp504, INSTANCE=RVE-instance
+504
+*NSET, NSET=NODE-xn870, INSTANCE=RVE-instance
+870
+** CONSTRAINT: EQUATIONS NODES-xn-870-xp-504
+*EQUATION
+3
+NODE-xp504, 1, 1.0
+NODE-xn870, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp504, 2, 1.0
+NODE-xn870, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp504, 3, 1.0
+NODE-xn870, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp414, INSTANCE=RVE-instance
+414
+*NSET, NSET=NODE-xn806, INSTANCE=RVE-instance
+806
+** CONSTRAINT: EQUATIONS NODES-xn-806-xp-414
+*EQUATION
+3
+NODE-xp414, 1, 1.0
+NODE-xn806, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp414, 2, 1.0
+NODE-xn806, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp414, 3, 1.0
+NODE-xn806, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp329, INSTANCE=RVE-instance
+329
+*NSET, NSET=NODE-xn729, INSTANCE=RVE-instance
+729
+** CONSTRAINT: EQUATIONS NODES-xn-729-xp-329
+*EQUATION
+3
+NODE-xp329, 1, 1.0
+NODE-xn729, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp329, 2, 1.0
+NODE-xn729, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp329, 3, 1.0
+NODE-xn729, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp251, INSTANCE=RVE-instance
+251
+*NSET, NSET=NODE-xn643, INSTANCE=RVE-instance
+643
+** CONSTRAINT: EQUATIONS NODES-xn-643-xp-251
+*EQUATION
+3
+NODE-xp251, 1, 1.0
+NODE-xn643, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp251, 2, 1.0
+NODE-xn643, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp251, 3, 1.0
+NODE-xn643, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp183, INSTANCE=RVE-instance
+183
+*NSET, NSET=NODE-xn552, INSTANCE=RVE-instance
+552
+** CONSTRAINT: EQUATIONS NODES-xn-552-xp-183
+*EQUATION
+3
+NODE-xp183, 1, 1.0
+NODE-xn552, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp183, 2, 1.0
+NODE-xn552, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp183, 3, 1.0
+NODE-xn552, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp124, INSTANCE=RVE-instance
+124
+*NSET, NSET=NODE-xn461, INSTANCE=RVE-instance
+461
+** CONSTRAINT: EQUATIONS NODES-xn-461-xp-124
+*EQUATION
+3
+NODE-xp124, 1, 1.0
+NODE-xn461, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp124, 2, 1.0
+NODE-xn461, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp124, 3, 1.0
+NODE-xn461, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp76, INSTANCE=RVE-instance
+76
+*NSET, NSET=NODE-xn373, INSTANCE=RVE-instance
+373
+** CONSTRAINT: EQUATIONS NODES-xn-373-xp-76
+*EQUATION
+3
+NODE-xp76, 1, 1.0
+NODE-xn373, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp76, 2, 1.0
+NODE-xn373, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp76, 3, 1.0
+NODE-xn373, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp593, INSTANCE=RVE-instance
+593
+*NSET, NSET=NODE-xn919, INSTANCE=RVE-instance
+919
+** CONSTRAINT: EQUATIONS NODES-xn-919-xp-593
+*EQUATION
+3
+NODE-xp593, 1, 1.0
+NODE-xn919, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp593, 2, 1.0
+NODE-xn919, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp593, 3, 1.0
+NODE-xn919, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp503, INSTANCE=RVE-instance
+503
+*NSET, NSET=NODE-xn869, INSTANCE=RVE-instance
+869
+** CONSTRAINT: EQUATIONS NODES-xn-869-xp-503
+*EQUATION
+3
+NODE-xp503, 1, 1.0
+NODE-xn869, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp503, 2, 1.0
+NODE-xn869, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp503, 3, 1.0
+NODE-xn869, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp413, INSTANCE=RVE-instance
+413
+*NSET, NSET=NODE-xn805, INSTANCE=RVE-instance
+805
+** CONSTRAINT: EQUATIONS NODES-xn-805-xp-413
+*EQUATION
+3
+NODE-xp413, 1, 1.0
+NODE-xn805, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp413, 2, 1.0
+NODE-xn805, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp413, 3, 1.0
+NODE-xn805, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp328, INSTANCE=RVE-instance
+328
+*NSET, NSET=NODE-xn728, INSTANCE=RVE-instance
+728
+** CONSTRAINT: EQUATIONS NODES-xn-728-xp-328
+*EQUATION
+3
+NODE-xp328, 1, 1.0
+NODE-xn728, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp328, 2, 1.0
+NODE-xn728, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp328, 3, 1.0
+NODE-xn728, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp250, INSTANCE=RVE-instance
+250
+*NSET, NSET=NODE-xn642, INSTANCE=RVE-instance
+642
+** CONSTRAINT: EQUATIONS NODES-xn-642-xp-250
+*EQUATION
+3
+NODE-xp250, 1, 1.0
+NODE-xn642, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp250, 2, 1.0
+NODE-xn642, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp250, 3, 1.0
+NODE-xn642, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp182, INSTANCE=RVE-instance
+182
+*NSET, NSET=NODE-xn551, INSTANCE=RVE-instance
+551
+** CONSTRAINT: EQUATIONS NODES-xn-551-xp-182
+*EQUATION
+3
+NODE-xp182, 1, 1.0
+NODE-xn551, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp182, 2, 1.0
+NODE-xn551, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp182, 3, 1.0
+NODE-xn551, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp123, INSTANCE=RVE-instance
+123
+*NSET, NSET=NODE-xn460, INSTANCE=RVE-instance
+460
+** CONSTRAINT: EQUATIONS NODES-xn-460-xp-123
+*EQUATION
+3
+NODE-xp123, 1, 1.0
+NODE-xn460, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp123, 2, 1.0
+NODE-xn460, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp123, 3, 1.0
+NODE-xn460, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp75, INSTANCE=RVE-instance
+75
+*NSET, NSET=NODE-xn372, INSTANCE=RVE-instance
+372
+** CONSTRAINT: EQUATIONS NODES-xn-372-xp-75
+*EQUATION
+3
+NODE-xp75, 1, 1.0
+NODE-xn372, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp75, 2, 1.0
+NODE-xn372, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp75, 3, 1.0
+NODE-xn372, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp41, INSTANCE=RVE-instance
+41
+*NSET, NSET=NODE-xn290, INSTANCE=RVE-instance
+290
+** CONSTRAINT: EQUATIONS NODES-xn-290-xp-41
+*EQUATION
+3
+NODE-xp41, 1, 1.0
+NODE-xn290, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp41, 2, 1.0
+NODE-xn290, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp41, 3, 1.0
+NODE-xn290, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp589, INSTANCE=RVE-instance
+589
+*NSET, NSET=NODE-xn867, INSTANCE=RVE-instance
+867
+** CONSTRAINT: EQUATIONS NODES-xn-867-xp-589
+*EQUATION
+3
+NODE-xp589, 1, 1.0
+NODE-xn867, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp589, 2, 1.0
+NODE-xn867, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp589, 3, 1.0
+NODE-xn867, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp497, INSTANCE=RVE-instance
+497
+*NSET, NSET=NODE-xn803, INSTANCE=RVE-instance
+803
+** CONSTRAINT: EQUATIONS NODES-xn-803-xp-497
+*EQUATION
+3
+NODE-xp497, 1, 1.0
+NODE-xn803, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp497, 2, 1.0
+NODE-xn803, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp497, 3, 1.0
+NODE-xn803, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp407, INSTANCE=RVE-instance
+407
+*NSET, NSET=NODE-xn726, INSTANCE=RVE-instance
+726
+** CONSTRAINT: EQUATIONS NODES-xn-726-xp-407
+*EQUATION
+3
+NODE-xp407, 1, 1.0
+NODE-xn726, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp407, 2, 1.0
+NODE-xn726, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp407, 3, 1.0
+NODE-xn726, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp322, INSTANCE=RVE-instance
+322
+*NSET, NSET=NODE-xn640, INSTANCE=RVE-instance
+640
+** CONSTRAINT: EQUATIONS NODES-xn-640-xp-322
+*EQUATION
+3
+NODE-xp322, 1, 1.0
+NODE-xn640, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp322, 2, 1.0
+NODE-xn640, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp322, 3, 1.0
+NODE-xn640, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp244, INSTANCE=RVE-instance
+244
+*NSET, NSET=NODE-xn549, INSTANCE=RVE-instance
+549
+** CONSTRAINT: EQUATIONS NODES-xn-549-xp-244
+*EQUATION
+3
+NODE-xp244, 1, 1.0
+NODE-xn549, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp244, 2, 1.0
+NODE-xn549, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp244, 3, 1.0
+NODE-xn549, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp176, INSTANCE=RVE-instance
+176
+*NSET, NSET=NODE-xn458, INSTANCE=RVE-instance
+458
+** CONSTRAINT: EQUATIONS NODES-xn-458-xp-176
+*EQUATION
+3
+NODE-xp176, 1, 1.0
+NODE-xn458, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp176, 2, 1.0
+NODE-xn458, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp176, 3, 1.0
+NODE-xn458, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp117, INSTANCE=RVE-instance
+117
+*NSET, NSET=NODE-xn370, INSTANCE=RVE-instance
+370
+** CONSTRAINT: EQUATIONS NODES-xn-370-xp-117
+*EQUATION
+3
+NODE-xp117, 1, 1.0
+NODE-xn370, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp117, 2, 1.0
+NODE-xn370, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp117, 3, 1.0
+NODE-xn370, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp69, INSTANCE=RVE-instance
+69
+*NSET, NSET=NODE-xn288, INSTANCE=RVE-instance
+288
+** CONSTRAINT: EQUATIONS NODES-xn-288-xp-69
+*EQUATION
+3
+NODE-xp69, 1, 1.0
+NODE-xn288, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp69, 2, 1.0
+NODE-xn288, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp69, 3, 1.0
+NODE-xn288, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp35, INSTANCE=RVE-instance
+35
+*NSET, NSET=NODE-xn214, INSTANCE=RVE-instance
+214
+** CONSTRAINT: EQUATIONS NODES-xn-214-xp-35
+*EQUATION
+3
+NODE-xp35, 1, 1.0
+NODE-xn214, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp35, 2, 1.0
+NODE-xn214, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp35, 3, 1.0
+NODE-xn214, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp499, INSTANCE=RVE-instance
+499
+*NSET, NSET=NODE-xn802, INSTANCE=RVE-instance
+802
+** CONSTRAINT: EQUATIONS NODES-xn-802-xp-499
+*EQUATION
+3
+NODE-xp499, 1, 1.0
+NODE-xn802, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp499, 2, 1.0
+NODE-xn802, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp499, 3, 1.0
+NODE-xn802, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp409, INSTANCE=RVE-instance
+409
+*NSET, NSET=NODE-xn725, INSTANCE=RVE-instance
+725
+** CONSTRAINT: EQUATIONS NODES-xn-725-xp-409
+*EQUATION
+3
+NODE-xp409, 1, 1.0
+NODE-xn725, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp409, 2, 1.0
+NODE-xn725, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp409, 3, 1.0
+NODE-xn725, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp324, INSTANCE=RVE-instance
+324
+*NSET, NSET=NODE-xn639, INSTANCE=RVE-instance
+639
+** CONSTRAINT: EQUATIONS NODES-xn-639-xp-324
+*EQUATION
+3
+NODE-xp324, 1, 1.0
+NODE-xn639, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp324, 2, 1.0
+NODE-xn639, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp324, 3, 1.0
+NODE-xn639, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp246, INSTANCE=RVE-instance
+246
+*NSET, NSET=NODE-xn548, INSTANCE=RVE-instance
+548
+** CONSTRAINT: EQUATIONS NODES-xn-548-xp-246
+*EQUATION
+3
+NODE-xp246, 1, 1.0
+NODE-xn548, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp246, 2, 1.0
+NODE-xn548, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp246, 3, 1.0
+NODE-xn548, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp178, INSTANCE=RVE-instance
+178
+*NSET, NSET=NODE-xn457, INSTANCE=RVE-instance
+457
+** CONSTRAINT: EQUATIONS NODES-xn-457-xp-178
+*EQUATION
+3
+NODE-xp178, 1, 1.0
+NODE-xn457, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp178, 2, 1.0
+NODE-xn457, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp178, 3, 1.0
+NODE-xn457, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp119, INSTANCE=RVE-instance
+119
+*NSET, NSET=NODE-xn369, INSTANCE=RVE-instance
+369
+** CONSTRAINT: EQUATIONS NODES-xn-369-xp-119
+*EQUATION
+3
+NODE-xp119, 1, 1.0
+NODE-xn369, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp119, 2, 1.0
+NODE-xn369, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp119, 3, 1.0
+NODE-xn369, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp71, INSTANCE=RVE-instance
+71
+*NSET, NSET=NODE-xn287, INSTANCE=RVE-instance
+287
+** CONSTRAINT: EQUATIONS NODES-xn-287-xp-71
+*EQUATION
+3
+NODE-xp71, 1, 1.0
+NODE-xn287, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp71, 2, 1.0
+NODE-xn287, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp71, 3, 1.0
+NODE-xn287, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp37, INSTANCE=RVE-instance
+37
+*NSET, NSET=NODE-xn213, INSTANCE=RVE-instance
+213
+** CONSTRAINT: EQUATIONS NODES-xn-213-xp-37
+*EQUATION
+3
+NODE-xp37, 1, 1.0
+NODE-xn213, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp37, 2, 1.0
+NODE-xn213, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp37, 3, 1.0
+NODE-xn213, 3, -1.0
+RP2, 3, -1.0
+** =-==--==--==--==--==--==--==--==--==--==--==
+*NSET, NSET=NODE-xp17, INSTANCE=RVE-instance
+17
+*NSET, NSET=NODE-xn150, INSTANCE=RVE-instance
+150
+** CONSTRAINT: EQUATIONS NODES-xn-150-xp-17
+*EQUATION
+3
+NODE-xp17, 1, 1.0
+NODE-xn150, 1, -1.0
+RP2, 1, -1.0
+*EQUATION
+3
+NODE-xp17, 2, 1.0
+NODE-xn150, 2, -1.0
+RP2, 2, -1.0
+*EQUATION
+3
+NODE-xp17, 3, 1.0
+NODE-xn150, 3, -1.0
+RP2, 3, -1.0

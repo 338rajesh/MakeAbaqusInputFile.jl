@@ -10,9 +10,8 @@ module AbaqusINPwriter
     include("historybase.jl")
     #
     include("apps/rve_inp.jl")
-    # include("rve_inp_writer.jl")
 
 
-    export write_unit_cell_inp, MaterialPhase, write_2D_unit_cell_inp
+    export write_3D_rve_inp, MaterialPhase, write_2D_unit_cell_inp
 
 end

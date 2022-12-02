@@ -7,8 +7,7 @@ end
 
 function start_step(
     inp_file::String,
-    analysis_type::DataType,
-    options::Dict;
+    analysis_type::DataType;
     step_name::String="STEP-1"
 )
     #
@@ -20,8 +19,8 @@ function start_step(
     else
         @warn "Unable to find the analysis type, while writing STEP."
     end
-    nlgeom_flag = options[:nlgeom] ? "YES" : "NO"
-    step_time_period, init_time_incr, min_time_incr, max_time_incr = options[:step_times]
+    nlgeom_flag = INP_OPTIONS[:nlgeom] ? "YES" : "NO"
+    step_time_period, init_time_incr, min_time_incr, max_time_incr = INP_OPTIONS[:step_times]
     #
     open(inp_file, "a") do fp
         write(
@@ -57,65 +56,67 @@ end
 
 function _apply_mech_bc(
     inp_file::String,
-    options::Dict,
     ref_points::Dict,
+    load_options::Dict,
 )
-    rel_disp_matrix = options[:rel_disp_matrix]
+    rel_disp_matrix = load_options[:rel_disp_matrix]
     #
     open(inp_file, "a") do fp
         write(
             fp,
             """
-            ** NAME: $(options[:id]) TYPE: DISPLACEMENT/ROTATION
+            ** NAME: $(INP_OPTIONS[:id]) - BC
+            ** TYPE: DISPLACEMENT/ROTATION
             *BOUNDARY
             """
         )
-    end
-    #
-    for (jj, rpj) in enumerate(keys(ref_points))
-        for ii in 1:length(ref_points)
-            append_to_file(inp_file,
+        #
+        # Adding BC's at all REFERENCE points
+        for (jj, rpj) in enumerate(keys(ref_points))
+            for ii in 1:length(ref_points)
+                write(
+                    fp,
+                    """
+                    $(rpj), $(ii), $(ii), $(rel_disp_matrix[ii,jj])
+                    """
+                )
+            end
+        end
+        #
+        # Applying temperature loads, if specified
+        if :final_temp_fields in keys(load_options)
+            write(
+                fp,
                 """
-                $(rpj), $(ii), $(ii), $(rel_disp_matrix[ii,jj])
-                """)
+                ** 
+                ** PREDEFINED FIELDS
+                ** 
+                ** NAME: PREDEFINED FIELD-1   TYPE: TEMPERATURE
+                *TEMPERATURE
+                """
+            )
+            for (ns_pointer, final_temp) in load_options[:final_temp_fields]
+                write(
+                fp,
+                """
+                $(ns_pointer), $(final_temp)
+                $(ns_pointer), $(final_temp)
+                """
+            )
+            end
         end
     end
     #
+    #
 end
 
-# function _apply_mech_3D_bc(
-#     inp_file::String,
-#     options::Dict,
-# )
-#     rel_disp_matrix = options[:rel_disp_matrix]
-#     #
-#     open(inp_file, "a") do fp
-#         write(
-#             fp,
-#             """
-#             ** NAME: $(options[:id]) TYPE: DISPLACEMENT/ROTATION
-#             *BOUNDARY
-#             """
-#         )
-#     end
-#     #
-#     for jj in 1:3
-#         for ii in 1:3
-#             append_to_file(inp_file,
-#                 """
-#                 RP$(jj), $(ii), $(ii), $(rel_disp_matrix[ii,jj])
-#                 """)
-#         end
-#     end
-#     #
-# end
 
-function _apply_thermal_bc(inp_file, options)
+function _apply_thermal_bc(inp_file, load_options)
     open(inp_file, "a") do fp
         write(
             fp,
             """
-            ** NAME: $(options[:id])
+            ** NAME: $(INP_OPTIONS[:id]) - BC
             ** TYPE: TEMPERATURE
             *BOUNDARY
             """
@@ -124,9 +125,34 @@ function _apply_thermal_bc(inp_file, options)
             write(
                 fp,
                 """
-                RP$(ii), 11, 11, $(options[:rel_temp_vector][ii])
+                RP$(ii), 11, 11, $(load_options[:rel_temp_vector][ii])
                 """
             )
+        end
+    end
+end
+
+
+function add_predefined_fields(
+    inp_file::String,
+    field_type::String,
+    fields::Dict{String,Float64};
+    field_name::String="PREDEFINED FIELD-1"
+)
+    open(inp_file, "a") do fp
+        write(fp,
+            """
+            ** 
+            ** $(comment_header("PREDEFINED FIELDS"))
+            ** 
+            ** NAME: $field_name   TYPE: $field_type
+            *INITIAL CONDITIONS, TYPE=$field_type
+            """)
+        for (k, v) in fields
+            write(fp,
+                """
+                $k, $v
+                """)
         end
     end
 end
@@ -135,15 +161,13 @@ end
 function add_boundary_conditions(
     inp_file::String,
     analysis_type::DataType,
-    options::Dict,
-    ref_points::Dict,
+    ref_points::Dict{String, NTuple{3, Float64}},
+    load_options::Dict{Symbol, Any},
 )
-    if analysis_type == Static3DStressAnalysis
-        _apply_mech_bc(inp_file, options, ref_points)
-    elseif analysis_type == StaticPlaneStrainAnalysis
-        _apply_mech_bc(inp_file, options, ref_points)
+    if analysis_type in (Static3DStressAnalysis, StaticPlaneStrainAnalysis)
+        _apply_mech_bc(inp_file, ref_points, load_options)
     elseif analysis_type <: ThermalAnalysis
-        _apply_thermal_bc(inp_file, options)
+        _apply_thermal_bc(inp_file, load_options)
     end
 end
 

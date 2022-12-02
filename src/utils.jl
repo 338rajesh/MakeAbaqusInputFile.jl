@@ -38,9 +38,20 @@ end
 function write_matrix_to_file(
     file_path::String,
     a::Matrix;
-)
+)::String
     open(file_path, "a") do fp
         writedlm(fp, transpose(a), ",\t")
     end
     return file_path
+end
+
+
+function comment_header(header::String, symbol::String="=")
+    h_line = repeat(symbol, length(header))
+    return "\n** $(h_line)\n** $(header)\n** $(h_line)\n**"
+end
+
+function comment_sub_header(header::String, symbol::String="=")
+    h_line = repeat(symbol, 1*length(header))
+    return "\n** $(h_line)\n** $(header)\n** $(h_line)"
 end

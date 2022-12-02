@@ -1,9 +1,5 @@
 
 
-
-
-
-
 function write_common_files(
     inp_dir::String,
     rve_model_data::Dict,
