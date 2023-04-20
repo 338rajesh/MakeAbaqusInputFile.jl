@@ -1,5 +1,6 @@
 module AbaqusINPwriter
     using DelimitedFiles
+    using UnitCellModelling    
     using Materials
     import FEPreProcessing: FENodePair
     #
@@ -9,6 +10,7 @@ module AbaqusINPwriter
     include("auxbase.jl")
     include("historybase.jl")
     #
+    include("apps/default_rve_inp_options.jl")
     include("apps/rve_inp.jl")
 
 
