@@ -15,7 +15,7 @@ function add_constraint_equations(
     inp_file::String,
     analysis_type::DataType,
     instance_name::String,
-    npairs::Vector{FENodePair},
+    npairs::Vector{FEPreProcessing.FENodePair},
     ntags::Vector{Int},
     ncoor::Matrix{Float64},
     ref_points::Dict;

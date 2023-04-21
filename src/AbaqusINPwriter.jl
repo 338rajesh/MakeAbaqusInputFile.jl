@@ -2,7 +2,7 @@ module AbaqusINPwriter
     using DelimitedFiles
     using UnitCellModelling    
     using Materials
-    import FEPreProcessing: FENodePair
+    using FEPreProcessing
     #
     include("utils.jl")
     include("gmsh2abaqus.jl")

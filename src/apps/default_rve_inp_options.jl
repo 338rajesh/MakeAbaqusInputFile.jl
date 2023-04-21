@@ -9,9 +9,6 @@ DEAFULT_RVE_INP_FILE_OPTIONS = Dict(
 	# The root directory or working directory, defaults to the script directory
 	:root_dir => @__DIR__,
 	#
-	# Directory to place the input files
-	:inp_files_dir => joinpath(@__DIR__, "inp_files"),
-	#
 	# =========================================
 	#		Abaqus Job information
 	# =========================================
