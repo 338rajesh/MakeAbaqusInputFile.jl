@@ -9,7 +9,6 @@ ABAQUS is a general-purpose computational tool to perform finite element analysi
 + Homgenization of RVE with the following features
   + Periodic boundary conditions
   + Fibres with [cross-sections](https://github.com/338rajesh/UnitCellModelling.jl#acceptable-inclusion-shapes) as supported by UnitCellModelling.jl
-  +
 
 ## Installation
 
@@ -65,3 +64,8 @@ write_3D_rve_inp(
     > Note: `smjx` and `smnx` are semi-major and semi-minor axes lengths. Will update the complete details of geometries soon.
 
 + `options` is a Julia dictionary. Here, `INP_FILE_OPTIONS` is defined in `rve_inp_options.jl` that is placed in the same directory as `prep_inp_file.jl`. `INP_FILE_OPTIONS` contains user options which overwrite the [default options](/src/apps/default_rve_inp_options.jl). Detailed explainations of each options is provided as comment in the same file. Change the values in this copy of options as you want in your case. If you have messed up this user options file while editing, you can get a fresh copy of default options [here](/src/apps/default_rve_inp_options.jl).
+
+## ToDO
+
++ Improvise the documentation
++ Add provision for writing `.bat` or `.sh` files to automate running with abaqus
