@@ -5,6 +5,8 @@ version = "0.1.0"
 
 [deps]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+FEPreProcessing = "4e1f3283-c9c5-47e5-ae97-911e3d9423b6"
+Materials = "3bc6abe2-0f4e-4155-8e62-b41e8eeb0f4d"
 UnitCellModelling = "876d06e3-6fab-4c7b-b376-755f35a71574"
 gmsh = "93d0bc29-614b-4a6d-9b70-ef8786ec1f3c"
 

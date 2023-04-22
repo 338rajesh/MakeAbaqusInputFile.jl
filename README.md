@@ -49,19 +49,16 @@ write_3D_rve_inp(
     
     | Inclusion shape Identifier| Data Matrix Representation                                | Data matrix shape     |
     |---------------------------|-----------------------------------------------------------| ----------------------|
-    | CIRCLE                    |       `[x  | y  | radius]`                                | (n, 3)                |
-    | CAPSULE                   | `[x  | y  | theta  | smjx \| smnx]`                       | (n, 5)                |
-    | ELLIPSE                   | `[x  | y  | theta  | smjx \| smnx]`                       | (n, 5)                |
-    | RECTANGLE                 | `[x  | y  | theta  | smjx \| smnx \| c_radius]`           | (n, 6)                |
-    | CSHAPE                    | `[x  | y  | theta  | ro ri \| alpha]`                     | (n, 6)                |
-    | RPOLYGON                  | `[x  | y  | theta  | side_len \| c_radius \| num_sides]`  | (n, 6)                |
-    | NLOBE                     | `[x  | y  | theta  | ro \| lobe_radius \| num_lobes]`     | (n, 6)                |
-    | nSTAR                     | `[x  | y  | theta  | ro \| rb \| rt \| rbf \| num_tips]`  | (n, 8)                |
+    | CIRCLE                    |       `[x  \| y  \| radius]`                                | (n, 3)                |
+    | CAPSULE                   | `[x  \| y  \| \theta  \| smjx \| smnx]`                       | (n, 5)                |
+    | ELLIPSE                   | `[x  \| y  \| \theta  \| smjx \| smnx]`                       | (n, 5)                |
+    | RECTANGLE                 | `[x  \| y  \| \theta  \| smjx \| smnx \| c_radius]`           | (n, 6)                |
+    | CSHAPE                    | `[x  \| y  \| \theta  \| ro ri \| alpha]`                     | (n, 6)                |
+    | RPOLYGON                  | `[x  \| y  \| \theta  \| side_len \| c_radius \| num_sides]`  | (n, 6)                |
+    | NLOBE                     | `[x  \| y  \| \theta  \| ro \| lobe_radius \| num_lobes]`     | (n, 6)                |
+    | nSTAR                     | `[x  \| y  \| \theta  \| ro \| rb \| rt \| rbf \| num_tips]`  | (n, 8)                |
     ||||||
 
-    > Note: `smjx` and `smnx` are semi-major and semi-minor axes lengths. Will update the details of geometry soon.
+    > Note: `smjx` and `smnx` are semi-major and semi-minor axes lengths. Will update the complete details of geometries soon.
 
-+ `options` is a Julia dictionary. Here, `INP_FILE_OPTIONS` is defined in `rve_inp_options.jl` that is placed in the same directory as `prep_inp_file.jl`. `INP_FILE_OPTIONS` contains user options which overwrite the [default options](/src/apps/default_rve_inp_options.jl). If you have messed up this user options file while editing, you can get a fresh copy of default options [here](/src/apps/default_rve_inp_options.jl).
-+ `verbose` controls the amount of text printed while writing the input files (complete details will be added soon!)
-+ add_abs_paths
-Then, 
++ `options` is a Julia dictionary. Here, `INP_FILE_OPTIONS` is defined in `rve_inp_options.jl` that is placed in the same directory as `prep_inp_file.jl`. `INP_FILE_OPTIONS` contains user options which overwrite the [default options](/src/apps/default_rve_inp_options.jl). Detailed explainations of each options is provided as comment in the same file. If you have messed up this user options file while editing, you can get a fresh copy of default options [here](/src/apps/default_rve_inp_options.jl). 
