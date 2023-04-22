@@ -1,7 +1,6 @@
 module AbaqusINPwriter
     using DelimitedFiles
-    using UnitCellModelling    
-    using Materials
+    using UnitCellModelling
     using FEPreProcessing
     #
     include("utils.jl")

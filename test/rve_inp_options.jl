@@ -1,12 +1,17 @@
+# ======================================================================================
+# 		user options file for preparing Abaqus input file using `AbaqusINPwriter.jl`
+# ======================================================================================
 
-DEAFULT_RVE_INP_FILE_OPTIONS = Dict(
+using Materials
+
+INP_FILE_OPTIONS = Dict(
 	#
 	# =========================================
 	#		Preliminaries
 	# =========================================
 	#
 	# The root directory or working directory, defaults to the script directory
-	:root_dir => @__DIR__,
+	:root_dir => mkpath(joinpath(@__DIR__, "testin_inp_files_gen")),
 	#
 	# =========================================
 	#		Abaqus Job information
@@ -68,13 +73,12 @@ DEAFULT_RVE_INP_FILE_OPTIONS = Dict(
 	#
 	# Matrix and fibre Materials
 	#
-	
-	:matrix_material => FEPreProcessing.Materials.IsotropicMaterial(
+	:matrix_material => Materials.IsotropicMaterial(
 		tag="Matrix-Material",
 		E=3.35e09,
 		nu=0.35,
 	),
-	:inclusions_material => FEPreProcessing.Materials.IsotropicMaterial(
+	:inclusions_material => Materials.IsotropicMaterial(
 		tag="Fibre-Material",
 		E=379.3e09,
 		nu=0.1,

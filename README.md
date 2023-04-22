@@ -1,5 +1,25 @@
-# Abaqus input file (.inp) writer
+# ABAQUS input file (.inp) writer
 
+A package for writing the ABAQUS input files directly. 
+
+ABAQUS is a general-purpose computational tool to perform finite element analysis, but this package is designed (at least now) to analyse certain classes of problems. 
+
+
+<span style="color:blue">**At present, `.inp` files are wrritten for the following applications**</span>
+
++ Homgenization of RVE with the following features
+    + Periodic boundary conditions
+    + Fibres with [cross-sections](https://github.com/338rajesh/UnitCellModelling.jl#acceptable-inclusion-shapes) as supported by UnitCellModelling.jl
+    + 
+    
+
+## Installation
+
+> before starting ensure that 
+
++ 
+
+<!-- 
 Here, you find the methods/definitions for writing Abaqus input files directly for RVE based analysis.
 
 > Still, the work and documentation are in progress!
@@ -60,3 +80,4 @@ It exports `write_3D_rve_inp()` function with the following arguments
 ## Finding Effective Thermal Expansion Coefficients
 
 ## Finding Effective Thermal Conduction Tensor
+ -->
