@@ -63,7 +63,6 @@ function write_3D_rve_inp(
     options::Dict{Symbol, Any}=Dict{Symbol, Any}(),
 )
     #
-	verbose = options[:verbose]
     # getting the default options
     for (a_key, a_value) in DEAFULT_RVE_INP_FILE_OPTIONS
         if !(a_key in keys(options))
@@ -71,6 +70,7 @@ function write_3D_rve_inp(
         end
     end
     #
+	verbose = options[:verbose]
     # getting the unit cell model data
     uc_data = get_uc_model_data(bounding_box, inclusions_data, options)
 	# ========================

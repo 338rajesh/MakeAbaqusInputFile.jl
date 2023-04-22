@@ -2,14 +2,20 @@
 # 		user options file for preparing Abaqus input file using `AbaqusINPwriter.jl`
 # ======================================================================================
 
-INP_FILE_OPTIONS = Dict(
+DEAFULT_RVE_INP_FILE_OPTIONS = Dict(
 	#
 	# =========================================
 	#		Preliminaries
 	# =========================================
 	#
 	# The root directory or working directory, defaults to the script directory
-	:root_dir => mkpath(joinpath(@__DIR__, "testin_inp_files_gen")),
+	:root_dir => @__DIR__,
+	#
+	# Choose if you want absolute or relative paths of the data files in the input file. By default, relative paths are used to make input files portable across the devices.
+	:write_abs_paths => false,
+	#
+	# The level of verbosity while writing input files
+	:verbose => 1,
 	#
 	# =========================================
 	#		Abaqus Job information
@@ -71,6 +77,7 @@ INP_FILE_OPTIONS = Dict(
 	#
 	# Matrix and fibre Materials
 	#
+	
 	:matrix_material => FEPreProcessing.Materials.IsotropicMaterial(
 		tag="Matrix-Material",
 		E=3.35e09,

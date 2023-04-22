@@ -1,4 +1,4 @@
-using AbaqusINPwriter
+using MakeAbaqusInputFile
 
 include("rve_inp_options.jl")
 
