@@ -64,7 +64,7 @@ function write_3D_rve_inp(
 )
     #
     # getting the default options
-    for (a_key, a_value) in DEAFULT_RVE_INP_FILE_OPTIONS
+    for (a_key, a_value) in RVE_INP_FILE_OPTIONS
         if !(a_key in keys(options))
             options[a_key] = a_value
         end

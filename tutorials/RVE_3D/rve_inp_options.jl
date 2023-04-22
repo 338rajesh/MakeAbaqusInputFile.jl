@@ -2,7 +2,9 @@
 # 		user options file for preparing Abaqus input file using `AbaqusINPwriter.jl`
 # ======================================================================================
 
-DEAFULT_RVE_INP_FILE_OPTIONS = Dict(
+using FEPreProcessing
+
+RVE_INP_FILE_OPTIONS = Dict(
 	#
 	# =========================================
 	#		Preliminaries

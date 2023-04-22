@@ -1,6 +1,6 @@
 using FEPreProcessing
 
-DEAFULT_RVE_INP_FILE_OPTIONS = Dict(
+RVE_INP_FILE_OPTIONS = Dict(
 	#
 	# =========================================
 	#		Preliminaries
