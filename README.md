@@ -1,62 +1,69 @@
-# Abaqus input file (.inp) writer
+# ABAQUS input file (.inp) writer
 
-Here, you find the methods/definitions for writing Abaqus input files directly for RVE based analysis.
+A package for writing the ABAQUS input files directly using `julia` interface.
 
-> Still, the work and documentation are in progress!
+ABAQUS is a general-purpose computational tool to perform finite element analysis, but this package is designed (at least now) to analyse certain classes of problems. 
 
-This module works interms of different applications as list below
 
-## RVE ABAQUS input file writer
+**At present, `.inp` files are wrritten for the following applications**
 
-It exports `write_3D_rve_inp()` function with the following arguments
++ Homgenization of RVE with the following features
+    + Periodic boundary conditions
+    + Fibres with [cross-sections](https://github.com/338rajesh/UnitCellModelling.jl#acceptable-inclusion-shapes) as supported by UnitCellModelling.jl
+    + 
+    
 
-+ `uc_data`:: `Dict{String, Any}`, it must contain the following information
-    + `"side_lengths"`=> `NTuple{3, Float64}`, 
-    + `"mesh_data"` => `Dict{String, Any}`,
-        + `"ntags"` => `Vectror{Int}`
-        + `"ncoor"` => `Matrix{Float64}`
-    + `"phases"` => `Vector{MaterialPhase}`. Each element of `MaterialPhase` type contains a tag, material and element connectivity
+## Installation
 
-+ `options`:: `Dict`
-    + `:id` => `String`, "RVE" is default ID
-        + `:req_properties` => `Vector{String}`
-            + 3D-Thermo-elastic properties: 
-                `["E11_3D", "E22_3D", "E33_3D", "G23_3D", "G31_3D", "G12_3D", "CTE_3D"]`
-            + 3D-Thermal conduction properties:
-                `["TC11_3D", "TC22_3D", "TC33_3D",]`
-        + `:model_name` => `String`
-        + `:job_name` => `String`
-        + `:model_summary` => `String`
-        + `:pbc` => `Bool`, Should it apply periodic boundary conditions
-        + `:matrix_material` => `Materials.Material`
-        + `:inclusions_material` => `Materials.Material`
-        + `:strain_values` => `Dict()`
-        + `:step_times` => `NTuple{4, Float64}`
-        + `:field_nor_mech` => `NTuple{String}`
-        + `:field_nor_thermal` => `NTuple{String}`
-        + `:field_eor_mech` => `NTuple{String}`
-        + `:field_eor_thermal` => `NTuple{String}`
-        + `:nlgeom` => `Bool`
-        + `:max_far_field_strain` => `Float64`
-        + `:init_temp` => `Float64`
-        + `:trans_thermal_analysis` => `Bool`
-        + `:eps` => `Float64`
-+ `dir`:: `String`
-+ `verbose`:: `Int`, 0 by default for silent writing.
-+ `add_abs_paths`:: `String`
+> Before starting installation, ensure that julia is added to the path. To check this, execute `julia`  in terminal or command prompt. If you get any error, then `julia` is not added to path properly. You can follow [these steps](https://julialang.org/downloads/platform/) for adding `julia` to the path.
 
-#### NOTE:
-+ `BASE_DIR::String` is used as root directory for writing inp files.
-+ For every RVE analysis, a input file is required but the most of the information like nodal information, element connectivity..etc are repetitive. Hence, first the common part of the inp file is written in separate files and are called in every RVE analysis inp file. These are stored in `COMMON_DATA_DIR` =>`options[:id]*"_inp_files_common_data"` directory
-    + By default, the contents of `COMMON_DATA_DIR` are removed before writing next set of equations.
-    + `nodes_info.inp`, for writing nodal information
-    + `Matrix-ele_conn_x.inp` where `x` denotes the type of element
-    + `constraint_eqns_y.inp` where `y` denotes the type of analysis.
+From command prompt run [`install_maif.jl`](/install_maif.jl). This will install the all the necessary packages and then MakeAbaqusInputFile.jl at the end.
+> Note: If you want to use different `gmsh`, please change accordingly in `install_maif.jl` file. But, it is recommended to keep it unchanged as in some version, we found that mesh periodicity is failing.
 
-+ For writing nodal data,
+## Tutorial
 
-## Finding Effective Elastic Tensor
+See `tutorials` directory at the root of this package. For example, ABAQUS input file for homogenization of fibre-reinforced composites using 3D RVE can be prepared using `/tutorials/RVE_3D/prep_inp_file.jl`.
 
-## Finding Effective Thermal Expansion Coefficients
+```julia
+using MakeAbaqusInputFile
 
-## Finding Effective Thermal Conduction Tensor
+include("rve_inp_options.jl")
+
+incl_data = Dict("CIRCLE" => [0.0 0.0 0.25])
+
+bbox = (-0.5, -0.5, -0.1, 0.5, 0.5, 0.1,)
+
+write_3D_rve_inp(
+    bbox, 
+    incl_data;
+    options=INP_FILE_OPTIONS,
+    verbose = 1,
+    add_abs_paths=false,
+)
+```
+
+`write_3D_rve_inp()` takes the following arguments
+
++ `bbox` bounding box of RVE as `Tuple` of six `Float64` values. It should be in the form of `(x_min, y_min, z_min, x_max, y_max, z_max)`.
++ `incl_data` is a Julia dictionary wherein key-value pairs are of `String` and `Matrix{Float64}` type. Keys is a fibre cross-section shape identifier and values are inclusion's positional information. The following table lists the possible shape identifiers and theur values.
+    
+    | Inclusion shape Identifier| Data Matrix Representation                                | Data matrix shape     |
+    |---------------------------|-----------------------------------------------------------| ----------------------|
+    | CIRCLE                    |       `[x  | y  | radius]`                                | (n, 3)                |
+    | CAPSULE                   | `[x  | y  | theta  | smjx \| smnx]`                       | (n, 5)                |
+    | ELLIPSE                   | `[x  | y  | theta  | smjx \| smnx]`                       | (n, 5)                |
+    | RECTANGLE                 | `[x  | y  | theta  | smjx \| smnx \| c_radius]`           | (n, 6)                |
+    | CSHAPE                    | `[x  | y  | theta  | ro ri \| alpha]`                     | (n, 6)                |
+    | RPOLYGON                  | `[x  | y  | theta  | side_len \| c_radius \| num_sides]`  | (n, 6)                |
+    | NLOBE                     | `[x  | y  | theta  | ro \| lobe_radius \| num_lobes]`     | (n, 6)                |
+    | nSTAR                     | `[x  | y  | theta  | ro \| rb \| rt \| rbf \| num_tips]`  | (n, 8)                |
+    ||||||
+
+    > Note: `smjx` and `smnx` are semi-major and semi-minor axes lengths. Will update the details of geometry soon.
+
++ `options` is a Julia dictionary. Here, `INP_FILE_OPTIONS` is defined in `rve_inp_options.jl` that is placed in the same directory as `prep_inp_file.jl`. `INP_FILE_OPTIONS` contains user options which overwrite the [default options](/src/apps/default_rve_inp_options.jl). If you have messed up this user options file while editing, you can get a fresh copy of default options [here](/src/apps/default_rve_inp_options.jl).
++ `verbose` controls the amount of text printed while writing the input files (complete details will be added soon!)
++ add_abs_paths
+Then, 
+
+

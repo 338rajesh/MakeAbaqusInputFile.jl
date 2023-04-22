@@ -61,10 +61,9 @@ function write_3D_rve_inp(
     bounding_box::Tuple{Vararg{Float64}},
     inclusions_data::Dict{String, Matrix{Float64}};
     options::Dict{Symbol, Any}=Dict{Symbol, Any}(),
-	verbose::Int = 0,
-	add_abs_paths::Bool = false,
 )
     #
+	verbose = options[:verbose]
     # getting the default options
     for (a_key, a_value) in DEAFULT_RVE_INP_FILE_OPTIONS
         if !(a_key in keys(options))
@@ -89,7 +88,7 @@ function write_3D_rve_inp(
 	global INP_OPTIONS = options
 	global BASE_DIR = options[:root_dir]
 	global COMMON_DATA_DIR = joinpath(BASE_DIR, RVE_ID * "_inp_files_common_data")
-	global ABS_PATH = add_abs_paths
+	global ABS_PATH = options[:write_abs_paths]
 	#
 	rm(COMMON_DATA_DIR; force = true, recursive = true)  # removes the cotents of the exisiting inp_files dir
 	COMMON_DATA_DIR = mkpath(COMMON_DATA_DIR)
