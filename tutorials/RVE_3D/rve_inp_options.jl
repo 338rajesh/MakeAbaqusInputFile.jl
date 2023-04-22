@@ -2,8 +2,6 @@
 # 		user options file for preparing Abaqus input file using `AbaqusINPwriter.jl`
 # ======================================================================================
 
-using Materials
-
 INP_FILE_OPTIONS = Dict(
 	#
 	# =========================================
@@ -73,12 +71,12 @@ INP_FILE_OPTIONS = Dict(
 	#
 	# Matrix and fibre Materials
 	#
-	:matrix_material => Materials.IsotropicMaterial(
+	:matrix_material => FEPreProcessing.Materials.IsotropicMaterial(
 		tag="Matrix-Material",
 		E=3.35e09,
 		nu=0.35,
 	),
-	:inclusions_material => Materials.IsotropicMaterial(
+	:inclusions_material => FEPreProcessing.Materials.IsotropicMaterial(
 		tag="Fibre-Material",
 		E=379.3e09,
 		nu=0.1,

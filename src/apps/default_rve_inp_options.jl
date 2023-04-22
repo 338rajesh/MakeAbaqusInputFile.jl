@@ -8,6 +8,12 @@ DEAFULT_RVE_INP_FILE_OPTIONS = Dict(
 	# The root directory or working directory, defaults to the script directory
 	:root_dir => @__DIR__,
 	#
+	# Choose if you want absolute or relative paths of the data files in the input file. By default, relative paths are used to make input files portable across the devices.
+	:write_abs_paths => false,
+	#
+	# The level of verbosity while writing input files
+	:verbose => 1,
+	#
 	# =========================================
 	#		Abaqus Job information
 	# =========================================

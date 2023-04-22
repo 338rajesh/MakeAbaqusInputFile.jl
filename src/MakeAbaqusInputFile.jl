@@ -1,4 +1,4 @@
-module AbaqusINPwriter
+module MakeAbaqusInputFile
     using DelimitedFiles
     using UnitCellModelling
     using FEPreProcessing

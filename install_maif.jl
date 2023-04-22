@@ -42,8 +42,8 @@ Pkg.add(url="https://github.com/338rajesh/FEPreProcessing.jl")
 # 		Installing AbaqusINPwriter.jl
 # =========================================
 #
-println("Installing AbaqusINPwriter.jl")
-Pkg.add(url="https://github.com/338rajesh/AbaqusINPwriter.jl")
+println("Installing MakeAbaqusInputFile.jl")
+Pkg.add(url="https://github.com/338rajesh/MakeAbaqusInputFile.jl")
 #
 printstyled("\n\tInstallation is complete!\n\n"; color=:yellow)
 
